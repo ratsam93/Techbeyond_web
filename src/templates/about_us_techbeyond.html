@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@700;800&amp;family=Inter:wght@400;500;600&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "surface-bright": "#393939",
+              "on-primary": "#003828",
+              "on-secondary-container": "#e6ecff",
+              "outline": "#86948c",
+              "on-error-container": "#ffdad6",
+              "on-error": "#690005",
+              "inverse-on-surface": "#313030",
+              "surface-container-highest": "#353535",
+              "inverse-surface": "#e5e2e1",
+              "secondary-fixed": "#d8e2ff",
+              "primary-fixed": "#7df9cb",
+              "background": "#131313",
+              "on-tertiary-fixed": "#00210e",
+              "tertiary": "#22e286",
+              "on-secondary-fixed": "#001a42",
+              "surface-tint": "#5edcb0",
+              "secondary-fixed-dim": "#adc6ff",
+              "surface": "#131313",
+              "primary": "#5edcb0",
+              "error": "#ffb4ab",
+              "on-secondary": "#002e6a",
+              "tertiary-fixed": "#5affa2",
+              "tertiary-container": "#00a65f",
+              "on-secondary-fixed-variant": "#004395",
+              "surface-container-high": "#2a2a2a",
+              "on-primary-fixed-variant": "#00513c",
+              "tertiary-fixed-dim": "#22e286",
+              "on-tertiary": "#00391d",
+              "error-container": "#93000a",
+              "primary-fixed-dim": "#5edcb0",
+              "on-primary-container": "#003122",
+              "inverse-primary": "#006c50",
+              "surface-variant": "#353535",
+              "primary-container": "#09a47c",
+              "on-background": "#e5e2e1",
+              "secondary-container": "#0566d9",
+              "on-tertiary-fixed-variant": "#00522c",
+              "on-surface": "#e5e2e1",
+              "secondary": "#adc6ff",
+              "on-surface-variant": "#bccac1",
+              "surface-container": "#20201f",
+              "surface-container-low": "#1c1b1b",
+              "on-primary-fixed": "#002116",
+              "surface-dim": "#131313",
+              "on-tertiary-container": "#003118",
+              "surface-container-lowest": "#0e0e0e",
+              "outline-variant": "#3d4a43"
+            },
+            fontFamily: {
+              "headline": ["Plus Jakarta Sans"],
+              "body": ["Inter"],
+              "label": ["Inter"]
+            },
+            borderRadius: {"DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px"},
+          },
+        },
+      }
+    </script>
+<style>
+      .material-symbols-outlined {
+        font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+      }
+      .glass-morphism {
+        background: rgba(53, 53, 53, 0.4);
+        backdrop-filter: blur(20px);
+        -webkit-backdrop-filter: blur(20px);
+      }
+    </style>
+</head>
+<body class="bg-background text-on-surface font-body selection:bg-primary selection:text-on-primary-fixed">
+<!-- TopNavBar -->
+<nav class="fixed top-0 w-full z-50 bg-[#131313]/60 backdrop-blur-xl bg-gradient-to-b from-[#1c1b1b] to-transparent">
+<div class="flex justify-between items-center max-w-7xl mx-auto px-8 h-20">
+<div class="text-2xl font-black tracking-tighter text-[#e5e2e1] font-headline">Promptgram</div>
+<div class="hidden md:flex items-center gap-8">
+<a class="text-[#e5e2e1] hover:text-[#5edcb0] transition-colors font-headline font-bold tracking-tight" href="#">Home</a>
+<a class="text-[#e5e2e1] hover:text-[#5edcb0] transition-colors font-headline font-bold tracking-tight" href="#">Services</a>
+<a class="text-[#e5e2e1] hover:text-[#5edcb0] transition-colors font-headline font-bold tracking-tight" href="#">Portfolio</a>
+<a class="text-[#5edcb0] border-b-2 border-[#5edcb0] pb-1 font-headline font-bold tracking-tight" href="#">About</a>
+<a class="text-[#e5e2e1] hover:text-[#5edcb0] transition-colors font-headline font-bold tracking-tight" href="#">Contact</a>
+</div>
+<button class="bg-gradient-to-r from-primary to-primary-container text-on-primary-fixed px-6 py-2.5 rounded-full font-bold transition-all hover:scale-105 active:scale-95 shadow-lg shadow-primary/10">
+                Free AI Audit
+            </button>
+</div>
+</nav>
+<main class="pt-32 pb-24">
+<!-- Hero Section: Intentional Asymmetry -->
+<section class="max-w-7xl mx-auto px-8 mb-32 relative">
+<div class="grid md:grid-cols-12 gap-12 items-center">
+<div class="md:col-span-7 z-10">
+<span class="text-primary font-bold tracking-widest text-xs uppercase mb-4 block">THE MISSION</span>
+<h1 class="text-6xl md:text-7xl font-headline font-extrabold tracking-tighter text-on-surface leading-[0.95] mb-8">
+                        Growth for <span class="text-primary">Indian Founders</span> on a Global Stage.
+                    </h1>
+<p class="text-lg text-on-surface-variant max-w-xl mb-10 leading-relaxed">TechBeyond is the Technical Architect for visionaries. We bridge the gap between Silicon Valley strategy and Indian execution, decoupling your time from brand visibility through high-leverage AI systems.</p>
+<div class="flex gap-4">
+<button class="bg-gradient-to-r from-primary to-primary-container text-on-primary-fixed px-8 py-4 rounded-full font-bold text-lg hover:shadow-[0_0_30px_-5px_rgba(94,220,176,0.4)] transition-all">
+                            Our Method
+                        </button>
+<button class="border border-outline-variant/30 text-on-surface px-8 py-4 rounded-full font-bold text-lg hover:bg-surface-container transition-all">
+                            View Roadmap
+                        </button>
+</div>
+</div>
+<div class="md:col-span-5 relative">
+<div class="aspect-[4/5] rounded-xl overflow-hidden bg-surface-container-low border border-outline-variant/10 shadow-2xl rotate-2 hover:rotate-0 transition-transform duration-700">
+<img class="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-1000" data-alt="High contrast professional architectural workspace with emerald lighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuANJvvDPfz8q6KlW2rXc7vS2i5pvIKhuvfQS3rHpRRfqwKgRF9XFBjAb1BSOCdkZTVi8pktydGu_3aamkyXRZfxbaOboexb3ZzIuqjBjC7eNqdsATnKdi3uDemS19Lo_bCNR3xfxrrl4f6-8vFBFLlN-rCZ38Wizyhf_WniinC1YopkhNz1Ath6Yw3mDIh-W_i76znasUffYESQ-cctpKqU_etNO-2jWlkUD-BABsn1IrSXYY7jdAdvFPHG85qW59M9hyU2YD_WdZNt"/>
+</div>
+<!-- Decorative Element -->
+<div class="absolute -bottom-10 -left-10 w-48 h-48 bg-primary/20 blur-[100px] rounded-full"></div>
+</div>
+</div>
+</section>
+<!-- The Hybrid Model Section: Tonal Shift -->
+<section class="bg-surface-container-low py-24 mb-32">
+<div class="max-w-7xl mx-auto px-8">
+<div class="flex flex-col md:flex-row justify-between items-start mb-16 gap-8">
+<div class="max-w-2xl">
+<h2 class="text-4xl font-headline font-bold text-on-surface mb-6">The US-India Hybrid Model</h2>
+<p class="text-on-surface-variant text-lg">We operate in the overlap. Strategic presence in San Francisco ensures we stay ahead of the AI curve, while our elite engineering core in Bangalore ensures precision execution at scale.</p>
+</div>
+<div class="flex gap-4 items-center glass-morphism p-6 rounded-xl border border-outline-variant/20">
+<div class="text-center px-4">
+<div class="text-primary text-3xl font-bold">SF</div>
+<div class="text-[10px] text-on-surface-variant uppercase tracking-widest font-bold">Strategy</div>
+</div>
+<div class="h-10 w-px bg-outline-variant/30"></div>
+<div class="text-center px-4">
+<div class="text-primary text-3xl font-bold">BLR</div>
+<div class="text-[10px] text-on-surface-variant uppercase tracking-widest font-bold">Build</div>
+</div>
+</div>
+</div>
+<div class="grid md:grid-cols-3 gap-8">
+<!-- Card 1 -->
+<div class="p-8 rounded-xl bg-surface-container-high border border-outline-variant/5 hover:border-primary/20 transition-all group">
+<span class="material-symbols-outlined text-primary mb-6 text-4xl" data-icon="architecture">architecture</span>
+<h3 class="text-xl font-headline font-bold mb-4">Strategy-First Builds</h3>
+<p class="text-on-surface-variant text-sm leading-relaxed">We don't just write code; we architect outcomes. Every pixel and line of logic is mapped back to your bottom-line growth and market positioning.</p>
+</div>
+<!-- Card 2 -->
+<div class="p-8 rounded-xl bg-surface-container-high border border-outline-variant/5 hover:border-primary/20 transition-all group">
+<span class="material-symbols-outlined text-primary mb-6 text-4xl" data-icon="hub">hub</span>
+<h3 class="text-xl font-headline font-bold mb-4">Decoupled Visibility</h3>
+<p class="text-on-surface-variant text-sm leading-relaxed">Using proprietary AI workflows, we automate your personal brand and distribution. Your presence grows while you focus on deep product work.</p>
+</div>
+<!-- Card 3 -->
+<div class="p-8 rounded-xl bg-surface-container-high border border-outline-variant/5 hover:border-primary/20 transition-all group">
+<span class="material-symbols-outlined text-primary mb-6 text-4xl" data-icon="terminal">terminal</span>
+<h3 class="text-xl font-headline font-bold mb-4">Technical Architect</h3>
+<p class="text-on-surface-variant text-sm leading-relaxed">Our persona is authoritative and deep. We serve as the extension of the founder's mind, building systems that act as an indestructible foundation.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Bento Grid: The Philosophy -->
+<section class="max-w-7xl mx-auto px-8 mb-32">
+<h2 class="text-4xl font-headline font-bold text-center mb-16">The Architect's Philosophy</h2>
+<div class="grid grid-cols-1 md:grid-cols-4 gap-4 auto-rows-[250px]">
+<div class="md:col-span-2 md:row-span-2 bg-surface-container rounded-xl overflow-hidden relative group p-10 flex flex-col justify-end border border-outline-variant/10">
+<img class="absolute inset-0 w-full h-full object-cover opacity-30 grayscale group-hover:scale-110 transition-transform duration-700" data-alt="Monolithic modern glass architecture reflecting a dark sky" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDPB-nZNgtcnYPn0WKqrgD-D8QpIIdJkloF7gp0u2sFl2uzU6oz-Ih7RSabZifR6bs_Div0bOd1gJ0qdt1CfnvptKYHJahYpUbGP-xwd-IRkZBZO7dCZNJlrSTFnBHBmjwL4R1zuL7pYK-bRH7Ay_Mz88dYiC9Jwna0EnxoMVx3q1z_63fbhtHPbc2zHNrkGaetimQaX1s-GCcI_sR2_LnyjzIfJTzlmpbr_3kF_J97pF348YQbuiXtiqKxXSdrri_EAD21g463csbV"/>
+<div class="relative z-10">
+<h3 class="text-2xl font-headline font-bold mb-2">No Platform Limits</h3>
+<p class="text-on-surface-variant">We build systems that transcend current platform trends, ensuring your brand survives any algorithm shift.</p>
+</div>
+</div>
+<div class="md:col-span-2 bg-primary-container/20 rounded-xl p-10 flex flex-col justify-center border border-primary/20">
+<h3 class="text-2xl font-headline font-bold text-primary mb-2">Decoupling Time</h3>
+<p class="text-on-surface-variant">AI-native operations that turn 1 hour of founder input into 100 hours of organizational output.</p>
+</div>
+<div class="bg-surface-container-high rounded-xl p-8 flex flex-col justify-between border border-outline-variant/10">
+<span class="material-symbols-outlined text-primary text-3xl" data-icon="auto_awesome">auto_awesome</span>
+<p class="font-bold text-sm">AI-First Workflows</p>
+</div>
+<div class="bg-surface-container-high rounded-xl p-8 flex flex-col justify-between border border-outline-variant/10">
+<span class="material-symbols-outlined text-primary text-3xl" data-icon="insights">insights</span>
+<p class="font-bold text-sm">Data Driven Growth</p>
+</div>
+</div>
+</section>
+<!-- CTA Section -->
+<section class="max-w-5xl mx-auto px-8">
+<div class="glass-morphism rounded-2xl p-12 text-center border border-outline-variant/20 relative overflow-hidden">
+<div class="absolute -top-24 -right-24 w-64 h-64 bg-primary/10 blur-[120px] rounded-full"></div>
+<h2 class="text-4xl font-headline font-bold mb-6">Ready to Scale with the Architect?</h2>
+<p class="text-on-surface-variant text-lg mb-10 max-w-2xl mx-auto">Stop trading hours for exposure. Let us build the systems that work while you innovate. Join the elite founders already in our network.</p>
+<button class="bg-primary text-on-primary-fixed px-10 py-4 rounded-full font-bold text-xl hover:bg-primary/90 transition-all shadow-xl shadow-primary/20">
+                    Book Your Strategy Call
+                </button>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="bg-[#131313] w-full border-t border-[#3d4a43]/20">
+<div class="grid grid-cols-1 md:grid-cols-4 gap-12 max-w-7xl mx-auto px-8 py-16">
+<div class="flex flex-col gap-6">
+<div class="text-xl font-bold text-[#5edcb0] font-headline">Promptgram</div>
+<p class="text-[#86948c] font-body text-sm leading-relaxed">The Technical Architect for modern Indian founders seeking global scale through AI and strategy.</p>
+</div>
+<div>
+<h4 class="text-[#e5e2e1] font-headline font-bold mb-6">Services</h4>
+<ul class="flex flex-col gap-3">
+<li><a class="text-[#86948c] hover:text-[#5edcb0] transition-colors duration-300 font-body text-sm" href="#">AI Strategy</a></li>
+<li><a class="text-[#86948c] hover:text-[#5edcb0] transition-colors duration-300 font-body text-sm" href="#">CRM Systems</a></li>
+<li><a class="text-[#86948c] hover:text-[#5edcb0] transition-colors duration-300 font-body text-sm" href="#">Web Development</a></li>
+</ul>
+</div>
+<div>
+<h4 class="text-[#e5e2e1] font-headline font-bold mb-6">Company</h4>
+<ul class="flex flex-col gap-3">
+<li><a class="text-[#5edcb0] font-body text-sm" href="#">About Us</a></li>
+<li><a class="text-[#86948c] hover:text-[#5edcb0] transition-colors duration-300 font-body text-sm" href="#">Privacy Policy</a></li>
+<li><a class="text-[#86948c] hover:text-[#5edcb0] transition-colors duration-300 font-body text-sm" href="#">Terms of Service</a></li>
+</ul>
+</div>
+<div>
+<h4 class="text-[#e5e2e1] font-headline font-bold mb-6">Newsletter</h4>
+<div class="flex flex-col gap-4">
+<p class="text-[#86948c] text-xs">Architectural insights delivered weekly.</p>
+<div class="flex bg-surface-container-low border border-outline-variant/20 rounded-full overflow-hidden p-1">
+<input class="bg-transparent border-none focus:ring-0 text-sm px-4 py-2 w-full text-on-surface" placeholder="Email" type="email"/>
+<button class="bg-primary text-on-primary-fixed w-10 h-10 rounded-full flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-sm" data-icon="arrow_forward">arrow_forward</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+<div class="max-w-7xl mx-auto px-8 py-8 border-t border-outline-variant/10">
+<p class="text-[#86948c] font-body text-sm text-center">© 2024 TechBeyond. Growth for Indian Founders.</p>
+</div>
+</footer>
+</body></html>

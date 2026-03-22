@@ -1,0 +1,28 @@
+# Techbeyond
+
+Techbeyond builds LinkedIn visibility, outreach, and conversation systems for B2B founders and service teams.
+
+## Primary Pages
+- https://techbeyond.in/
+- https://techbeyond.in/services
+- https://techbeyond.in/linkedin-services.html
+- https://techbeyond.in/portfolio
+- https://techbeyond.in/about-us
+- https://techbeyond.in/contact-us
+
+## Core Offer
+- LinkedIn visibility + commenting engine
+- Personalized outreach flows
+- Multi-profile scaling systems
+- AI-assisted and human-supervised reply handling
+- Conversion-focused profile optimization
+
+## Audience
+- B2B founders
+- Agencies
+- SaaS teams
+- Consultants
+
+## Notes
+- No analytics pixels or gtag scripts should be loaded.
+- Content emphasizes useful, factual service detail for users and AI assistants.

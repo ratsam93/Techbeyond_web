@@ -1,0 +1,320 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LinkedIn Services | Techbeyond</title>
+    <meta
+      name="description"
+      content="LinkedIn visibility, outreach, and conversation systems by Techbeyond."
+    />
+    <link rel="stylesheet" href="/assets/index-Cl9sNg7x.css" />
+    <style>
+      .nav-shell {
+        transition: all 0.3s ease;
+      }
+      .nav-shell.scrolled {
+        background: rgba(0, 0, 0, 0.9);
+        backdrop-filter: blur(10px);
+        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.35);
+      }
+      .nav-active {
+        color: #08a47c !important;
+        font-weight: 600;
+        border-bottom: 2px solid #08a47c;
+        padding-bottom: 4px;
+      }
+      .section-card {
+        background: linear-gradient(180deg, #1a1a1a 0%, #000 100%);
+        border: 1px solid #08a47c;
+        box-shadow: 0 0 0 1px rgba(8, 164, 124, 0.08), 0 12px 34px rgba(0, 0, 0, 0.35);
+        transition: transform 0.26s ease, box-shadow 0.26s ease, opacity 0.5s ease;
+      }
+      .section-card:hover {
+        transform: translateY(-4px);
+        box-shadow: 0 0 0 1px rgba(8, 164, 124, 0.12), 0 22px 44px rgba(0, 0, 0, 0.42);
+      }
+      .bg-orb {
+        position: absolute;
+        border-radius: 999px;
+        filter: blur(72px);
+        opacity: 0.12;
+        pointer-events: none;
+        animation: floatOrb 8s ease-in-out infinite;
+      }
+      .bg-orb.orb-2 {
+        animation-delay: 1.2s;
+      }
+      .reveal-item {
+        opacity: 0;
+        transform: translateY(18px);
+      }
+      .reveal-item.in-view {
+        opacity: 1;
+        transform: translateY(0);
+      }
+      .tilt {
+        transform-style: preserve-3d;
+        transition: transform 0.18s ease;
+      }
+      @keyframes floatOrb {
+        0% {
+          transform: translateY(0) scale(1);
+        }
+        50% {
+          transform: translateY(-12px) scale(1.04);
+        }
+        100% {
+          transform: translateY(0) scale(1);
+        }
+      }
+      @media (prefers-reduced-motion: reduce) {
+        .bg-orb,
+        .section-card {
+          animation: none !important;
+          transition: none !important;
+        }
+      }
+      @media (pointer: coarse) {
+        
+      }
+    </style>
+  </head>
+  <body class="relative overflow-x-hidden bg-black text-white">
+    <div class="fixed left-0 top-0 z-50 h-screen w-screen pointer-events-none" aria-hidden="true">
+      <canvas id="fluid" class="h-screen w-screen"></canvas>
+    </div>
+    <div class="bg-orb left-10 top-20 h-40 w-40 bg-[#08a47c]"></div>
+    <div class="bg-orb orb-2 bottom-20 right-10 h-56 w-56 bg-[#08a47c]"></div>
+
+    <nav id="site-nav" class="nav-shell relative z-40 flex items-center justify-between px-4 py-4 sm:px-6 md:px-10">
+      <div class="flex items-center gap-2 text-xl font-bold text-green-500">
+        <a href="/">
+          <img src="/assets/techbeyond-tbs-logo.svg" alt="Techbeyond Logo" class="h-10 md:h-16" />
+        </a>
+      </div>
+
+      <ul class="hidden items-center gap-4 text-sm font-medium md:flex lg:gap-6">
+        <li><a class="text-white transition-colors duration-300 hover:text-[#08a47c]" href="/">Home</a></li>
+        <li><a class="text-white transition-colors duration-300 hover:text-[#08a47c]" href="/services">Services</a></li>
+        <li><a class="nav-active transition-colors duration-300" href="/linkedin-services.html">LinkedIn Services</a></li>
+        <li><a class="text-white transition-colors duration-300 hover:text-[#08a47c]" href="/portfolio">Portfolio</a></li>
+        <li><a class="text-white transition-colors duration-300 hover:text-[#08a47c]" href="/about-us">About Us</a></li>
+        <li><a class="text-white transition-colors duration-300 hover:text-[#08a47c]" href="/contact-us">Contact Us</a></li>
+        <li><a class="text-white transition-colors duration-300 hover:text-[#08a47c]" href="/free-ai-audit">Free AI Audit</a></li>
+      </ul>
+
+      <button
+        id="menu-toggle"
+        class="z-20 p-2 text-white focus:outline-none md:hidden"
+        aria-label="Toggle menu"
+        aria-expanded="false"
+      >
+        <svg id="menu-icon-open" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <line x1="3" y1="6" x2="21" y2="6"></line>
+          <line x1="3" y1="12" x2="21" y2="12"></line>
+          <line x1="3" y1="18" x2="21" y2="18"></line>
+        </svg>
+        <svg id="menu-icon-close" xmlns="http://www.w3.org/2000/svg" class="hidden h-6 w-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <line x1="18" y1="6" x2="6" y2="18"></line>
+          <line x1="6" y1="6" x2="18" y2="18"></line>
+        </svg>
+      </button>
+
+      <div class="hidden gap-3 md:flex">
+        <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" class="rounded-md bg-blue-600 p-2 text-white transition-transform hover:-translate-y-1 hover:scale-110">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" viewBox="0 0 24 24" fill="currentColor"><path d="M13.5 9H16V6h-2.5C10.9 6 9 7.9 9 10.5V12H7v3h2v6h3v-6h2.3l.7-3H12v-1.5c0-.8.7-1.5 1.5-1.5z"/></svg>
+        </a>
+        <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" class="rounded-md bg-sky-400 p-2 text-white transition-transform hover:-translate-y-1 hover:scale-110">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" viewBox="0 0 24 24" fill="currentColor"><path d="M22 5.9c-.7.3-1.4.5-2.2.6.8-.5 1.3-1.2 1.6-2.1-.8.5-1.6.8-2.5 1-1.4-1.4-3.6-1.5-5.1-.2-1 .8-1.4 2.1-1.1 3.3-3-.2-5.7-1.6-7.5-3.9-1 1.8-.5 4 1.2 5.1-.6 0-1.2-.2-1.7-.5 0 2 1.4 3.7 3.3 4.1-.6.2-1.2.2-1.8.1.5 1.7 2.1 2.9 3.8 2.9-1.5 1.2-3.4 1.8-5.3 1.8H4c1.9 1.2 4.2 1.9 6.5 1.9 7.8 0 12.1-6.5 12.1-12.1v-.6c.8-.5 1.4-1.2 1.9-2z"/></svg>
+        </a>
+        <a href="https://youtube.com" target="_blank" rel="noopener noreferrer" class="rounded-md bg-red-600 p-2 text-white transition-transform hover:-translate-y-1 hover:scale-110">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" viewBox="0 0 24 24" fill="currentColor"><path d="M23 12s0-3-1-4.5c-.6-.8-1.3-1-2.2-1.1C16.9 6 12 6 12 6h0S7.1 6 4.2 6.4c-.9.1-1.6.3-2.2 1.1C1 9 1 12 1 12s0 3 1 4.5c.6.8 1.4 1 2.2 1.1C7.1 18 12 18 12 18s4.9 0 7.8-.4c.9-.1 1.6-.3 2.2-1.1 1-1.5 1-4.5 1-4.5zM10 15V9l5 3-5 3z"/></svg>
+        </a>
+      </div>
+    </nav>
+
+    <div id="mobile-menu" class="fixed left-0 top-16 z-30 hidden w-full bg-gray-800 shadow-md md:hidden">
+      <ul class="space-y-1 px-4 py-2">
+        <li><a href="/" class="block border-b border-gray-700 px-4 py-3 text-base font-medium text-white hover:text-green-400">Home</a></li>
+        <li><a href="/services" class="block border-b border-gray-700 px-4 py-3 text-base font-medium text-white hover:text-green-400">Services</a></li>
+        <li><a href="/linkedin-services.html" class="block border-b border-gray-700 px-4 py-3 text-base font-medium text-green-400">LinkedIn Services</a></li>
+        <li><a href="/portfolio" class="block border-b border-gray-700 px-4 py-3 text-base font-medium text-white hover:text-green-400">Portfolio</a></li>
+        <li><a href="/about-us" class="block border-b border-gray-700 px-4 py-3 text-base font-medium text-white hover:text-green-400">About Us</a></li>
+        <li><a href="/contact-us" class="block border-b border-gray-700 px-4 py-3 text-base font-medium text-white hover:text-green-400">Contact Us</a></li>
+        <li><a href="/free-ai-audit" class="block px-4 py-3 text-base font-medium text-white hover:text-green-400">Free AI Audit</a></li>
+      </ul>
+      <div class="flex justify-center gap-4 bg-gray-900 px-6 py-4">
+        <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" class="rounded-full bg-blue-600 p-3 text-white">f</a>
+        <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" class="rounded-full bg-sky-400 p-3 text-white">x</a>
+        <a href="https://youtube.com" target="_blank" rel="noopener noreferrer" class="rounded-full bg-red-600 p-3 text-white">▶</a>
+      </div>
+    </div>
+
+    <main class="mx-auto max-w-7xl px-4 py-8 sm:px-6">
+      <div class="flex flex-col gap-8 lg:flex-row lg:gap-12">
+        <div class="flex-1 space-y-8">
+          <section class="section-card reveal-item rounded-xl p-6 sm:p-8">
+            <h1 class="mb-4 text-3xl font-bold leading-tight sm:text-4xl lg:text-5xl">Turn LinkedIn Into Your #1 Pipeline Channel</h1>
+            <p class="text-base leading-7 text-gray-300 sm:text-lg">We combine visibility, outreach, and conversations so prospects already recognize you before your first message.</p>
+            <div class="mt-6 flex flex-wrap gap-3">
+              <a href="/contact-us" class="rounded-lg bg-gradient-to-r from-[#08a47c] to-white px-5 py-3 text-sm font-bold text-black">Book Strategy Call</a>
+              <a href="#how-it-works" class="rounded-lg border border-[#08a47c] px-5 py-3 text-sm font-semibold text-white hover:bg-[#08a47c]/10">See How It Works</a>
+            </div>
+          </section>
+
+          <section class="section-card reveal-item rounded-xl p-6 sm:p-8">
+            <h2 class="mb-4 text-2xl font-bold sm:text-3xl">Why Most LinkedIn Outreach Fails</h2>
+            <div class="grid grid-cols-1 gap-4 md:grid-cols-2">
+              <div class="tilt rounded-xl border border-[#08a47c]/60 bg-black/35 p-4 text-gray-300">Sending DMs without prior visibility gets ignored.</div>
+              <div class="tilt rounded-xl border border-[#08a47c]/60 bg-black/35 p-4 text-gray-300">Automation tools can hurt deliverability and trust.</div>
+              <div class="tilt rounded-xl border border-[#08a47c]/60 bg-black/35 p-4 text-gray-300">No visibility means no familiarity and no confidence.</div>
+              <div class="tilt rounded-xl border border-[#08a47c]/60 bg-black/35 p-4 text-gray-300">Volume-only outreach agencies optimize quantity, not quality.</div>
+            </div>
+          </section>
+
+          <section class="section-card reveal-item rounded-xl p-6 sm:p-8">
+            <h2 class="mb-3 text-2xl font-bold sm:text-3xl">Outreach Alone Does Not Work Anymore</h2>
+            <p class="text-gray-300">People do not reply to strangers. They reply to people they have already seen.</p>
+            <div class="mt-4 flex flex-wrap gap-2 text-xs font-semibold sm:text-sm">
+              <span class="rounded-full border border-[#08a47c]/70 bg-[#08a47c]/10 px-3 py-1 text-[#8ce7ca]">Seen</span>
+              <span class="rounded-full border border-[#08a47c]/70 bg-[#08a47c]/10 px-3 py-1 text-[#8ce7ca]">Engaged</span>
+              <span class="rounded-full border border-[#08a47c]/70 bg-[#08a47c]/10 px-3 py-1 text-[#8ce7ca]">Messaged</span>
+              <span class="rounded-full border border-[#08a47c]/70 bg-[#08a47c]/10 px-3 py-1 text-[#8ce7ca]">Replied</span>
+            </div>
+            <p class="mt-4 font-semibold text-white">We create familiarity before we create conversations.</p>
+          </section>
+
+          <section id="how-it-works" class="section-card reveal-item rounded-xl p-6 sm:p-8">
+            <h2 class="mb-4 text-2xl font-bold sm:text-3xl">How It Works: 4-Step Model</h2>
+            <div class="grid grid-cols-1 gap-4 md:grid-cols-2">
+              <article class="tilt rounded-xl border border-[#08a47c]/60 bg-black/35 p-4"><h3 class="mb-2 text-lg font-bold">1. Visibility Layer</h3><p class="text-sm text-gray-300">Daily ICP commenting so your name appears consistently before outreach.</p></article>
+              <article class="tilt rounded-xl border border-[#08a47c]/60 bg-black/35 p-4"><h3 class="mb-2 text-lg font-bold">2. Outreach Layer</h3><p class="text-sm text-gray-300">Hyper-targeted lists, personalized requests, and structured follow-ups.</p></article>
+              <article class="tilt rounded-xl border border-[#08a47c]/60 bg-black/35 p-4"><h3 class="mb-2 text-lg font-bold">3. Scaling Layer</h3><p class="text-sm text-gray-300">Safe multi-profile infrastructure to increase conversations without account risk.</p></article>
+              <article class="tilt rounded-xl border border-[#08a47c]/60 bg-black/35 p-4"><h3 class="mb-2 text-lg font-bold">4. Conversation Layer</h3><p class="text-sm text-gray-300">You reply, we assist, or we fully manage replies into booked calls.</p></article>
+            </div>
+          </section>
+
+          <section class="section-card reveal-item rounded-xl p-6 sm:p-8">
+            <h2 class="mb-4 text-2xl font-bold sm:text-3xl">Why We Are Different</h2>
+            <div class="overflow-x-auto">
+              <table class="w-full min-w-[560px] border-collapse text-left text-sm text-gray-300">
+                <thead><tr><th class="border border-[#08a47c]/60 px-4 py-3 text-[#8ce7ca]">Others</th><th class="border border-[#08a47c]/60 px-4 py-3 text-[#8ce7ca]">Techbeyond</th></tr></thead>
+                <tbody>
+                  <tr><td class="border border-[#08a47c]/35 px-4 py-3">DM-only campaigns</td><td class="border border-[#08a47c]/35 px-4 py-3">Visibility-first pipeline system</td></tr>
+                  <tr><td class="border border-[#08a47c]/35 px-4 py-3">Automation-heavy delivery</td><td class="border border-[#08a47c]/35 px-4 py-3">Hybrid human + system execution</td></tr>
+                  <tr><td class="border border-[#08a47c]/35 px-4 py-3">Account fatigue risk</td><td class="border border-[#08a47c]/35 px-4 py-3">Safe scaling and pacing controls</td></tr>
+                  <tr><td class="border border-[#08a47c]/35 px-4 py-3">Cold-first approach</td><td class="border border-[#08a47c]/35 px-4 py-3">Warm-first conversation design</td></tr>
+                </tbody>
+              </table>
+            </div>
+          </section>
+        </div>
+
+        <aside class="w-full lg:w-80 xl:w-96">
+          <div class="section-card reveal-item rounded-xl p-6 lg:sticky lg:top-6">
+            <h3 class="mb-6 border-b border-gray-800 pb-4 text-2xl font-bold">Our Services</h3>
+            <ul class="space-y-3">
+              <li><a href="/services/web-funnel-development" class="group flex items-center justify-between rounded-lg px-4 py-3 hover:bg-gray-800"><span class="text-lg group-hover:text-[#08a47c]">Web & Funnel Development</span></a></li>
+              <li><a href="/services/crm-growth-automation" class="group flex items-center justify-between rounded-lg px-4 py-3 hover:bg-gray-800"><span class="text-lg group-hover:text-[#08a47c]">CRM & Growth Automation</span></a></li>
+              <li><a href="/services/founder-video-creation-editing" class="group flex items-center justify-between rounded-lg px-4 py-3 hover:bg-gray-800"><span class="text-lg group-hover:text-[#08a47c]">Founder Video Creation & Editing</span></a></li>
+              <li><a href="/services/ai-chatbots-voice-agents" class="group flex items-center justify-between rounded-lg px-4 py-3 hover:bg-gray-800"><span class="text-lg group-hover:text-[#08a47c]">AI Chatbots & Voice Agents</span></a></li>
+              <li><a href="/services/seo-paid-ad-campaigns" class="group flex items-center justify-between rounded-lg px-4 py-3 hover:bg-gray-800"><span class="text-lg group-hover:text-[#08a47c]">SEO + Paid Ad Campaigns</span></a></li>
+              <li><a href="/services/branding-visual-identity" class="group flex items-center justify-between rounded-lg px-4 py-3 hover:bg-gray-800"><span class="text-lg group-hover:text-[#08a47c]">Branding & Visual Identity</span></a></li>
+              <li><a href="/services/complete-social-media-management-marketing" class="group flex items-center justify-between rounded-lg px-4 py-3 hover:bg-gray-800"><span class="text-lg group-hover:text-[#08a47c]">Social Media Management</span></a></li>
+              <li><a href="/services/custom-web-mobile-app-development" class="group flex items-center justify-between rounded-lg px-4 py-3 hover:bg-gray-800"><span class="text-lg group-hover:text-[#08a47c]">Custom Web & Mobile Apps</span></a></li>
+              <li><a href="/linkedin-services.html" class="block rounded-lg bg-[#08a47c]/15 px-4 py-3 text-lg font-semibold text-[#8ce7ca]">LinkedIn Services</a></li>
+            </ul>
+          </div>
+        </aside>
+      </div>
+    </main>
+
+    <script>
+      (function () {
+        var nav = document.getElementById('site-nav');
+        var menu = document.getElementById('mobile-menu');
+        var toggle = document.getElementById('menu-toggle');
+        var iconOpen = document.getElementById('menu-icon-open');
+        var iconClose = document.getElementById('menu-icon-close');
+        var isOpen = false;
+
+        function onScroll() {
+          if (window.scrollY > 10) nav.classList.add('scrolled');
+          else nav.classList.remove('scrolled');
+        }
+
+        function closeMenu() {
+          isOpen = false;
+          menu.classList.add('hidden');
+          iconOpen.classList.remove('hidden');
+          iconClose.classList.add('hidden');
+          toggle.setAttribute('aria-expanded', 'false');
+          document.body.style.overflow = 'auto';
+        }
+
+        function toggleMenu() {
+          isOpen = !isOpen;
+          menu.classList.toggle('hidden', !isOpen);
+          iconOpen.classList.toggle('hidden', isOpen);
+          iconClose.classList.toggle('hidden', !isOpen);
+          toggle.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+          document.body.style.overflow = isOpen ? 'hidden' : 'auto';
+        }
+
+        window.addEventListener('scroll', onScroll);
+        toggle.addEventListener('click', toggleMenu);
+        document.querySelectorAll('#mobile-menu a').forEach(function (a) {
+          a.addEventListener('click', closeMenu);
+        });
+
+        var observer = new IntersectionObserver(
+          function (entries) {
+            entries.forEach(function (entry) {
+              if (entry.isIntersecting) entry.target.classList.add('in-view');
+            });
+          },
+          { threshold: 0.12 }
+        );
+        document.querySelectorAll('.reveal-item').forEach(function (el) {
+          observer.observe(el);
+        });
+
+        document.querySelectorAll('.tilt').forEach(function (card) {
+          card.addEventListener('pointermove', function (e) {
+            if (window.matchMedia('(pointer: coarse)').matches) return;
+            var r = card.getBoundingClientRect();
+            var x = (e.clientX - r.left) / r.width;
+            var y = (e.clientY - r.top) / r.height;
+            var rx = (0.5 - y) * 4;
+            var ry = (x - 0.5) * 4;
+            card.style.transform = 'perspective(900px) rotateX(' + rx + 'deg) rotateY(' + ry + 'deg)';
+          });
+          card.addEventListener('pointerleave', function () {
+            card.style.transform = 'perspective(900px) rotateX(0deg) rotateY(0deg)';
+          });
+        });
+      })();
+    </script>
+    <script src="/fluid-effect.js"></script>
+    <script>
+      (function () {
+        var started = false;
+        function startFluid() {
+          if (started || !window.initFluidEffect) return;
+          started = true;
+          window.initFluidEffect();
+        }
+
+        if ('requestIdleCallback' in window) {
+          window.requestIdleCallback(startFluid, { timeout: 1200 });
+        } else {
+          setTimeout(startFluid, 600);
+        }
+
+        window.addEventListener('pointermove', startFluid, { once: true, passive: true });
+        window.addEventListener('touchstart', startFluid, { once: true, passive: true });
+      })();
+    </script>
+  </body>
+</html>

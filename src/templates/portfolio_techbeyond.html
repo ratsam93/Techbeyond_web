@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Portfolio | TechBeyond</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;family=Inter:wght@400;500;600&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "surface-bright": "#393939",
+              "on-primary": "#003828",
+              "on-secondary-container": "#e6ecff",
+              "outline": "#86948c",
+              "on-error-container": "#ffdad6",
+              "on-error": "#690005",
+              "inverse-on-surface": "#313030",
+              "surface-container-highest": "#353535",
+              "inverse-surface": "#e5e2e1",
+              "secondary-fixed": "#d8e2ff",
+              "primary-fixed": "#7df9cb",
+              "background": "#131313",
+              "on-tertiary-fixed": "#00210e",
+              "tertiary": "#22e286",
+              "on-secondary-fixed": "#001a42",
+              "surface-tint": "#5edcb0",
+              "secondary-fixed-dim": "#adc6ff",
+              "surface": "#131313",
+              "primary": "#5edcb0",
+              "error": "#ffb4ab",
+              "on-secondary": "#002e6a",
+              "tertiary-fixed": "#5affa2",
+              "tertiary-container": "#00a65f",
+              "on-secondary-fixed-variant": "#004395",
+              "surface-container-high": "#2a2a2a",
+              "on-primary-fixed-variant": "#00513c",
+              "tertiary-fixed-dim": "#22e286",
+              "on-tertiary": "#00391d",
+              "error-container": "#93000a",
+              "primary-fixed-dim": "#5edcb0",
+              "on-primary-container": "#003122",
+              "inverse-primary": "#006c50",
+              "surface-variant": "#353535",
+              "primary-container": "#09a47c",
+              "on-background": "#e5e2e1",
+              "secondary-container": "#0566d9",
+              "on-tertiary-fixed-variant": "#00522c",
+              "on-surface": "#e5e2e1",
+              "secondary": "#adc6ff",
+              "on-surface-variant": "#bccac1",
+              "surface-container": "#20201f",
+              "surface-container-low": "#1c1b1b",
+              "on-primary-fixed": "#002116",
+              "surface-dim": "#131313",
+              "on-tertiary-container": "#003118",
+              "surface-container-lowest": "#0e0e0e",
+              "outline-variant": "#3d4a43"
+            },
+            fontFamily: {
+              "headline": ["Plus Jakarta Sans"],
+              "body": ["Inter"],
+              "label": ["Inter"]
+            },
+            borderRadius: {"DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px"},
+          },
+        },
+      }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .glass-effect {
+            background: rgba(53, 53, 53, 0.4);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+        }
+        .no-scrollbar::-webkit-scrollbar {
+            display: none;
+        }
+    </style>
+</head>
+<body class="bg-background text-on-surface font-body selection:bg-primary selection:text-on-primary">
+<!-- Top Navigation Bar -->
+<nav class="fixed top-0 w-full z-50 bg-[#131313]/60 backdrop-blur-xl bg-gradient-to-b from-[#1c1b1b] to-transparent">
+<div class="flex justify-between items-center max-w-7xl mx-auto px-8 h-20">
+<div class="text-2xl font-black tracking-tighter text-[#e5e2e1] font-headline">TechBeyond</div>
+<div class="hidden md:flex items-center space-x-8">
+<a class="font-['Plus_Jakarta_Sans'] font-bold tracking-tight text-[#e5e2e1] hover:text-[#5edcb0] transition-colors" href="#">Home</a>
+<a class="font-['Plus_Jakarta_Sans'] font-bold tracking-tight text-[#e5e2e1] hover:text-[#5edcb0] transition-colors" href="#">Services</a>
+<a class="font-['Plus_Jakarta_Sans'] font-bold tracking-tight text-[#5edcb0] border-b-2 border-[#5edcb0] pb-1" href="#">Portfolio</a>
+<a class="font-['Plus_Jakarta_Sans'] font-bold tracking-tight text-[#e5e2e1] hover:text-[#5edcb0] transition-colors" href="#">About</a>
+<a class="font-['Plus_Jakarta_Sans'] font-bold tracking-tight text-[#e5e2e1] hover:text-[#5edcb0] transition-colors" href="#">Contact</a>
+</div>
+<button class="bg-gradient-to-r from-primary to-primary-container text-on-primary-fixed px-6 py-2.5 rounded-full font-bold text-sm transition-transform active:scale-95 duration-200">
+                Free AI Audit
+            </button>
+</div>
+</nav>
+<main class="pt-32 pb-24 px-8 max-w-7xl mx-auto">
+<!-- Hero Section -->
+<header class="mb-24 relative">
+<div class="absolute -top-24 -right-12 w-96 h-96 bg-primary/10 rounded-full blur-[120px] -z-10"></div>
+<div class="max-w-3xl">
+<span class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-surface-container-high text-primary text-xs font-bold uppercase tracking-widest mb-6 border border-outline-variant/20">
+<span class="w-1.5 h-1.5 rounded-full bg-primary animate-pulse"></span>
+                    Impact Driven Design
+                </span>
+<h1 class="text-6xl md:text-7xl font-headline font-extrabold tracking-tight text-on-surface leading-[1.1] mb-8">
+                    Scaling Brands through <span class="text-primary italic">Technical Precision.</span>
+</h1>
+<p class="text-lg text-on-surface-variant max-w-xl leading-relaxed">
+                    Explore our recent collaborations where AI-driven strategy meets high-performance engineering to deliver measurable growth for forward-thinking founders.
+                </p>
+</div>
+</header>
+<!-- Metrics Overview Bento -->
+<section class="grid grid-cols-1 md:grid-cols-4 gap-6 mb-32">
+<div class="md:col-span-2 bg-surface-container p-8 rounded-xl border border-outline-variant/10 flex flex-col justify-between">
+<div>
+<h3 class="text-primary font-headline font-bold text-lg mb-2">Aggregated Impact</h3>
+<p class="text-on-surface-variant text-sm">Across all active AI integrations in Q3 2024.</p>
+</div>
+<div class="mt-12 flex items-baseline gap-4">
+<span class="text-7xl font-headline font-black tracking-tighter text-on-surface">14.2M</span>
+<span class="text-primary font-bold">+28% MoM</span>
+</div>
+<p class="text-on-surface-variant mt-2 text-sm uppercase tracking-widest font-semibold">Total Monthly Impressions</p>
+</div>
+<div class="bg-surface-container-high p-8 rounded-xl border border-outline-variant/10 flex flex-col items-center justify-center text-center">
+<div class="w-12 h-12 rounded-full bg-primary/20 flex items-center justify-center mb-6">
+<span class="material-symbols-outlined text-primary" data-icon="trending_up">trending_up</span>
+</div>
+<div class="text-4xl font-headline font-extrabold text-on-surface mb-2">312%</div>
+<p class="text-on-surface-variant text-xs uppercase tracking-wider">Avg. Lead Increase</p>
+</div>
+<div class="bg-surface-container-high p-8 rounded-xl border border-outline-variant/10 flex flex-col items-center justify-center text-center">
+<div class="w-12 h-12 rounded-full bg-primary/20 flex items-center justify-center mb-6">
+<span class="material-symbols-outlined text-primary" data-icon="group">group</span>
+</div>
+<div class="text-4xl font-headline font-extrabold text-on-surface mb-2">840k</div>
+<p class="text-on-surface-variant text-xs uppercase tracking-wider">New Users Acquired</p>
+</div>
+</section>
+<!-- Case Studies Grid -->
+<section class="mb-32">
+<div class="flex items-end justify-between mb-12">
+<div>
+<h2 class="text-3xl font-headline font-bold mb-4">Case Studies</h2>
+<div class="h-1 w-20 bg-primary rounded-full"></div>
+</div>
+<div class="hidden md:flex gap-4">
+<button class="w-12 h-12 rounded-full border border-outline-variant/20 flex items-center justify-center text-on-surface hover:border-primary transition-colors">
+<span class="material-symbols-outlined" data-icon="arrow_back">arrow_back</span>
+</button>
+<button class="w-12 h-12 rounded-full border border-outline-variant/20 flex items-center justify-center text-on-surface hover:border-primary transition-colors">
+<span class="material-symbols-outlined" data-icon="arrow_forward">arrow_forward</span>
+</button>
+</div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+<!-- Case Study 1 -->
+<article class="group relative overflow-hidden rounded-xl bg-surface-container border border-outline-variant/5">
+<div class="aspect-[16/10] overflow-hidden">
+<img alt="Fintech growth visualization" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110 grayscale group-hover:grayscale-0 opacity-60 group-hover:opacity-100" data-alt="Abstract futuristic fintech interface with glowing green lines" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCaaiMx8fElGAWL8pAFCgIQL8XQlhROAxabCwcSOF-T4-c3lwtcVz0A75YDXKlYUWTrC70wcVoLqWRAZtqvg-ESK20mPdK9iP6QtTdFmCxpDWXG7VXngFTAFAjd2zdzJfipzLKKc2Z3qpZfKDyhWPKxNnPnxov14sjlnwjOCNKpkUkgWUrrjSmLA_JZpG8m3PFPhP8uS6tt1d94RrL0kQ7fgXJXpRgkRZdOk30NCyIvhMfCtP23BVXwSaPgZyKizui4dMN0mC0QnvBn"/>
+</div>
+<div class="p-8 relative">
+<div class="absolute -top-12 left-8 px-4 py-2 bg-primary text-on-primary-fixed font-bold text-xs rounded-lg shadow-xl">
+                            FINTECH
+                        </div>
+<h3 class="text-2xl font-headline font-bold mb-4 text-on-surface">Fintech Growth</h3>
+<p class="text-on-surface-variant mb-8 leading-relaxed">Scaling a decentralized finance protocol through predictive lead generation and automated CRM workflows.</p>
+<div class="grid grid-cols-2 gap-4 border-t border-outline-variant/10 pt-6">
+<div>
+<div class="text-primary font-bold text-xl">+215%</div>
+<div class="text-[10px] uppercase tracking-widest text-on-surface-variant font-bold">% Leads Incr.</div>
+</div>
+<div>
+<div class="text-primary font-bold text-xl">120k</div>
+<div class="text-[10px] uppercase tracking-widest text-on-surface-variant font-bold">New Users</div>
+</div>
+</div>
+</div>
+</article>
+<!-- Case Study 2 -->
+<article class="group relative overflow-hidden rounded-xl bg-surface-container border border-outline-variant/5">
+<div class="aspect-[16/10] overflow-hidden">
+<img alt="Digital transformation" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110 grayscale group-hover:grayscale-0 opacity-60 group-hover:opacity-100" data-alt="Modern retail space with digital screens and emerald lighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAiOI_6tfTK7fM_u9nAPS1qpq4y24BUJz39g05946tJzYubhVw06ujJ44E9aW-AVTK5-Kpnrs-RDD14q-Z9N3GRL9e12gAR7qVBC4UDK4O2mBP7gtipcBM7_LZe5jyccPskMIlVt5frXBRxFpo3e1hnwewEfLLz06jU9vbDOh7ioHlpchUeTu8d9IoHzEpjYaWJ1q6xIm4aSL_NGao8o0iVv_4xZqqplajIy8b4_8a-I4lfyZ_qHX6s4PM5_3aVoVPaLtn5I230fL4y"/>
+</div>
+<div class="p-8 relative">
+<div class="absolute -top-12 left-8 px-4 py-2 bg-primary text-on-primary-fixed font-bold text-xs rounded-lg shadow-xl">
+                            E-COMMERCE
+                        </div>
+<h3 class="text-2xl font-headline font-bold mb-4 text-on-surface">Omnichannel Brand Revolution</h3>
+<p class="text-on-surface-variant mb-8 leading-relaxed">Unified customer journey mapping and AI-powered inventory forecasting for a luxury retail giant.</p>
+<div class="grid grid-cols-2 gap-4 border-t border-outline-variant/10 pt-6">
+<div>
+<div class="text-primary font-bold text-xl">+185%</div>
+<div class="text-[10px] uppercase tracking-widest text-on-surface-variant font-bold">Conv. Rate</div>
+</div>
+<div>
+<div class="text-primary font-bold text-xl">450k</div>
+<div class="text-[10px] uppercase tracking-widest text-on-surface-variant font-bold">Web Visits</div>
+</div>
+</div>
+</div>
+</article>
+</div>
+</section>
+<!-- Testimonials -->
+<section class="py-24 relative overflow-hidden rounded-xl bg-surface-container-low">
+<div class="absolute top-0 right-0 w-1/2 h-full opacity-20 pointer-events-none">
+<div class="w-full h-full bg-gradient-to-l from-primary/30 to-transparent"></div>
+</div>
+<div class="relative px-8 md:px-16">
+<h2 class="text-4xl font-headline font-extrabold mb-16">Voices of Success</h2>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+<!-- Testimonial 1 -->
+<div class="glass-effect p-8 rounded-xl border border-outline-variant/10 flex flex-col justify-between h-full">
+<div class="mb-8">
+<div class="flex text-primary mb-6">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<p class="text-on-surface italic leading-relaxed text-lg">"TechBeyond didn't just build a tool; they redefined our entire sales funnel. The results were instantaneous and measurable."</p>
+</div>
+<div class="flex items-center gap-4">
+<div class="w-12 h-12 rounded-full overflow-hidden bg-surface-container-highest">
+<img alt="Founder" data-alt="Portrait of a successful male tech founder" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBF1IG-m0LYZN7Oln-oJbZUKsKfVJMu22LT5soLIcBOexVjZxrMl2rhumwIspwT0sfpC_VkYZibrR5S3HvXkNNOLn2YX-M47aqlSL93_w56xmM5A8D9_3m57Rs_jyNx-0llK-HX6P6tj21aXnMnd-5UnIywuDd0sl4TMkuvHIWkvtPJs869MA_KKIb8GSkbiC2woPtOFfNv5L3C0a1UVZVgKYta57JKsKaqChxIYyeqgDzh7qQq6WRTok3Hzrx2VYMkzIswLf4OxD-9"/>
+</div>
+<div>
+<div class="font-bold text-on-surface">Ishaan Gupta</div>
+<div class="text-xs text-on-surface-variant uppercase tracking-wider">CEO, NeoFin</div>
+</div>
+</div>
+</div>
+<!-- Testimonial 2 -->
+<div class="glass-effect p-8 rounded-xl border border-outline-variant/10 flex flex-col justify-between h-full">
+<div class="mb-8">
+<div class="flex text-primary mb-6">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<p class="text-on-surface italic leading-relaxed text-lg">"The technical depth of their team is unmatched. They solved architecture problems we had been struggling with for months in weeks."</p>
+</div>
+<div class="flex items-center gap-4">
+<div class="w-12 h-12 rounded-full overflow-hidden bg-surface-container-highest">
+<img alt="CTO" data-alt="Portrait of a confident female tech leader" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDFQef6fh8In3WmO4GixHASFgeClb5CgojObFn_0dOcaAhAuYzEdrSu3wHMDiMd8AYI7n9bRmYEQHTBga-2fLi_yng3-RCkqhBg8yc-DKwk5q6fIOug2CaC8H2hknQpJLNkpEJRP_vVksC2ap63Onm-iDGkLZ0m_vzBwMk0j-VCOT3M1bcaTcpCllignF7tbqyn2W53WP6fLYLHAUKgLbwR26yHKUsGactk9etLVGXDoO2apwiF-Lo7ZDOWM2urKp3trtkeSaq2J2h6"/>
+</div>
+<div>
+<div class="font-bold text-on-surface">Ananya Rao</div>
+<div class="text-xs text-on-surface-variant uppercase tracking-wider">CTO, CloudStream</div>
+</div>
+</div>
+</div>
+<!-- Testimonial 3 -->
+<div class="glass-effect p-8 rounded-xl border border-outline-variant/10 flex flex-col justify-between h-full">
+<div class="mb-8">
+<div class="flex text-primary mb-6">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<p class="text-on-surface italic leading-relaxed text-lg">"Their AI strategy for our CRM was a game-changer. We've seen a 3x increase in client retention rates since implementation."</p>
+</div>
+<div class="flex items-center gap-4">
+<div class="w-12 h-12 rounded-full overflow-hidden bg-surface-container-highest">
+<img alt="Marketing Lead" data-alt="Portrait of an experienced male marketing executive" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDV9AyBPVaFEjXPFAAfjnEcZU_khm-bd79TT-2X-maqWBhkrLZOY5lTGTB_L0_YHZ_Z0ZiR1UWGUT-26sZ3sp4v5F_XYOPlGJrA3S5Qmwo0K4OQkPXAPA6PYks_p9DFzWg9mwGQr6wrkB06G1k-wen9P6NQrIDWNodMhfgdm-YrszMkaGG21n-fVfoEe5KqieL4-oraKFchkb9ruiETmPnj9oJsjMB_yKhzBluvx7S3MVps5arF7fCEOGL_emxzIN0IIDSitBDHerqf"/>
+</div>
+<div>
+<div class="font-bold text-on-surface">Kabir Singh</div>
+<div class="text-xs text-on-surface-variant uppercase tracking-wider">Director, Velocity Brands</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="bg-[#131313] w-full border-t border-[#3d4a43]/20">
+<div class="grid grid-cols-1 md:grid-cols-4 gap-12 max-w-7xl mx-auto px-8 py-16">
+<div class="space-y-6">
+<div class="text-xl font-bold text-[#5edcb0]">TechBeyond</div>
+<p class="text-[#86948c] text-sm leading-relaxed">Pioneering AI-driven growth for Indian Founders. No platform limits. Just results.</p>
+<div class="flex gap-4">
+<a class="text-[#86948c] hover:text-[#5edcb0] transition-colors" href="#"><span class="material-symbols-outlined">public</span></a>
+<a class="text-[#86948c] hover:text-[#5edcb0] transition-colors" href="#"><span class="material-symbols-outlined">alternate_email</span></a>
+<a class="text-[#86948c] hover:text-[#5edcb0] transition-colors" href="#"><span class="material-symbols-outlined">brand_family</span></a>
+</div>
+</div>
+<div>
+<h4 class="text-on-surface font-bold mb-6">Expertise</h4>
+<ul class="space-y-4 font-['Inter'] text-sm text-[#86948c]">
+<li><a class="hover:text-[#5edcb0] transition-colors duration-300" href="#">AI Strategy</a></li>
+<li><a class="hover:text-[#5edcb0] transition-colors duration-300" href="#">CRM Systems</a></li>
+<li><a class="hover:text-[#5edcb0] transition-colors duration-300" href="#">Web Development</a></li>
+</ul>
+</div>
+<div>
+<h4 class="text-on-surface font-bold mb-6">Company</h4>
+<ul class="space-y-4 font-['Inter'] text-sm text-[#86948c]">
+<li><a class="hover:text-[#5edcb0] transition-colors duration-300" href="#">Portfolio</a></li>
+<li><a class="hover:text-[#5edcb0] transition-colors duration-300" href="#">About Us</a></li>
+<li><a class="hover:text-[#5edcb0] transition-colors duration-300" href="#">Privacy Policy</a></li>
+<li><a class="hover:text-[#5edcb0] transition-colors duration-300" href="#">Terms of Service</a></li>
+</ul>
+</div>
+<div>
+<h4 class="text-on-surface font-bold mb-6">Newsletter</h4>
+<div class="relative">
+<input class="w-full bg-surface-container-low border-none rounded-lg px-4 py-3 text-sm focus:ring-1 focus:ring-[#5edcb0]/50 outline-none text-on-surface" placeholder="Email address" type="email"/>
+<button class="absolute right-2 top-1.5 bg-primary text-on-primary-fixed px-3 py-1.5 rounded text-xs font-bold">Join</button>
+</div>
+<p class="text-[#86948c] text-[10px] mt-4">Get the latest AI growth tactics delivered weekly.</p>
+</div>
+</div>
+<div class="max-w-7xl mx-auto px-8 pb-8 border-t border-outline-variant/10 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
+<p class="font-['Inter'] text-sm text-[#86948c]">© 2024 Promptgram. Growth for Indian Founders.</p>
+<div class="flex gap-6">
+<span class="text-[10px] text-[#86948c] uppercase tracking-widest font-bold">Made with impact</span>
+</div>
+</div>
+</footer>
+</body></html>
