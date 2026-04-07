@@ -1,13 +1,15 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import { BrowserRouter } from 'react-router-dom';
-import App from './App';
-import './styles.css';
+import { StrictMode } from "react";
+import { createRoot } from "react-dom/client";
+import { RouterProvider } from "react-router-dom";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap-icons/font/bootstrap-icons.css";
+import "./site/styles/agency-theme.css";
+import "./site/styles/concepts.css";
+import "./site/styles/reference-theme.css";
+import { router } from "./Routes/Routes.jsx";
 
-ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
-    <BrowserRouter>
-      <App />
-    </BrowserRouter>
-  </React.StrictMode>,
+createRoot(document.getElementById("root")).render(
+  <StrictMode>
+    <RouterProvider router={router} />
+  </StrictMode>,
 );

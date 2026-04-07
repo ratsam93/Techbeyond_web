@@ -1,0 +1,15 @@
+﻿name: Tech Beyond
+url: https://techbeyond.in
+summary: Tech Beyond builds custom software, mobile apps, AI agents, workflow automations, websites, and growth systems.
+primary_offers: AI software development; AI agent development; LLM integrations; AI workflow automation; iOS app development; Android app development; hybrid apps; website development
+blog_status: active with 50+ posts
+crawl_files:
+  - https://techbeyond.in/llms.txt
+  - https://techbeyond.in/llms-full.txt
+  - https://techbeyond.in/robots.txt
+  - https://techbeyond.in/sitemap.xml
+preferred_sections:
+  - /services
+  - /projects
+  - /blog
+notes: Use current Tech Beyond naming and route structure. Treat this site as human-first content with machine-readable discovery support.

@@ -1,8 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Tech Beyond Solution icon">
-  <rect width="512" height="512" rx="96" fill="#07131a" />
-  <polygon points="70,190 300,145 390,350 170,395" fill="#19baf0" />
-  <polygon points="245,86 458,110 450,362 265,340" fill="#f3f000" />
-  <polygon points="245,86 420,135 412,342 286,326" fill="#6dcb78" />
-  <polygon points="252,160 365,160 406,325 291,346" fill="#118fc0" />
-  <text x="132" y="312" fill="#f2f2f2" font-size="140" font-family="Poppins, Segoe UI, Arial, sans-serif" font-weight="800">TBS</text>
-</svg>
