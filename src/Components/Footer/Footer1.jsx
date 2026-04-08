@@ -78,7 +78,7 @@ const Footer1 = () => {
                                 <img src="/assets/img/icons/footer1-icon3.png" alt="" />
                               </div>
                               <div className="pera">
-                                    <a href="mailto:info@techbeyond.com">info@techbeyond.com</a>
+                                    <a href="mailto:info@techbeyondsolutions.com">info@techbeyondsolutions.com</a>
                               </div>
                             </div>
 
@@ -87,7 +87,7 @@ const Footer1 = () => {
                                 <img src="/assets/img/icons/footer1-icon4.png" alt="" />
                               </div>
                               <div className="pera">
-                                    <a href="mailto:info@techbeyond.com">info@techbeyond.com</a>
+                                    <a href="mailto:info@techbeyondsolutions.com">info@techbeyondsolutions.com</a>
                               </div>
                             </div>
 

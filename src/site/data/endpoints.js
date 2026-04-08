@@ -1,12 +1,12 @@
 export const businessEndpoints = {
   emails: {
-    primary: "info@techbeyond.com",
-    sales: "info@techbeyond.com",
-    support: "info@techbeyond.com",
-    strategy: "info@techbeyond.com",
-    businessPlans: "info@techbeyond.com",
-    partnerships: "info@techbeyond.com",
-    careers: "info@techbeyond.com",
+    primary: "info@techbeyondsolutions.com",
+    sales: "info@techbeyondsolutions.com",
+    support: "info@techbeyondsolutions.com",
+    strategy: "info@techbeyondsolutions.com",
+    businessPlans: "info@techbeyondsolutions.com",
+    partnerships: "info@techbeyondsolutions.com",
+    careers: "info@techbeyondsolutions.com",
   },
   contact: {
     page: "/contact",
@@ -15,9 +15,9 @@ export const businessEndpoints = {
     projectInquiry: "/contact?intent=project-inquiry",
   },
   booking: {
-    provider: "Calendly",
-    strategyCallUrl: "https://calendly.com/techbeyond/strategy-call",
-    businessPlanUrl: "https://calendly.com/techbeyond/business-plan-call",
+    provider: "TidyCal",
+    strategyCallUrl: "chat-with-sam/digital-coffee",
+    businessPlanUrl: "chat-with-sam/digital-coffee",
   },
   submission: {
     contactForm: null,

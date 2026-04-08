@@ -228,8 +228,8 @@ const PricingAdmin = () => {
   return (
     <AppLayout>
       <SEOHead
-        title="Techbeyond | Pricing Admin"
-        description="Internal Techbeyond pricing controls for service pricing, checkout mode, and card settings."
+        title="Techbeyond Solution | Pricing Admin"
+        description="Internal Techbeyond Solution pricing controls for service pricing, checkout mode, and card settings."
         canonicalPath="/admin/pricing"
         seo={{ noIndex: true }}
       />
@@ -384,7 +384,7 @@ const PricingAdmin = () => {
                     <article className="tbx-admin-card">
                       <div className="tbx-admin-grid">
                         <label>
-                          <span>Strategy call calendar URL</span>
+                          <span>Strategy call TidyCal path or URL</span>
                           <input
                             value={draftBookingSettings.strategyCallUrl || ""}
                             onChange={(event) =>
@@ -393,11 +393,11 @@ const PricingAdmin = () => {
                                 strategyCallUrl: event.target.value,
                               }))
                             }
-                            placeholder="https://calendly.com/your-link/strategy-call"
+                            placeholder="chat-with-sam/digital-coffee"
                           />
                         </label>
                         <label>
-                          <span>Business plan calendar URL</span>
+                          <span>Business plan TidyCal path or URL</span>
                           <input
                             value={draftBookingSettings.businessPlanUrl || ""}
                             onChange={(event) =>
@@ -406,12 +406,12 @@ const PricingAdmin = () => {
                                 businessPlanUrl: event.target.value,
                               }))
                             }
-                            placeholder="https://calendly.com/your-link/business-plan"
+                            placeholder="chat-with-sam/digital-coffee"
                           />
                         </label>
                       </div>
                       <p>
-                        The homepage strategy-call button and the booking iframe use these links. Update them here and save once.
+                        The homepage and contact-page scheduler now use TidyCal paths such as `chat-with-sam/digital-coffee`. Update them here and save once.
                       </p>
                     </article>
                   </div>

@@ -116,7 +116,7 @@ const ServiceChild = () => {
   return (
     <AppLayout>
       <SEOHead
-        title={`Techbeyond | ${page?.title || "Service"}`}
+        title={`Techbeyond Solution | ${page?.title || "Service"}`}
         description={heroDesc}
         canonicalPath={canonicalPath}
         schema={schema}

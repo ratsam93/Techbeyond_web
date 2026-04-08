@@ -721,4 +721,43 @@ const makeProject = (entry, index) => {
   };
 };
 
-export const portfolioProjects = portfolioSource.map(makeProject);
+const featuredProjectAdditions = [
+  {
+    slug: "master-the-ai-shift",
+    aliases: ["mastertheaishift-com", "mastertheaishift"],
+    title: "mastertheaishift.com",
+    summary: "An AI education and authority-platform project focused on clearer positioning, a stronger learning funnel, and launch-ready content architecture.",
+    industry: "AI Education Platform",
+    services: ["AI Strategy", "Website Systems", "Launch Support"],
+    image: "/portfolio/master-the-ai-shift.png",
+    imageAlt: "mastertheaishift.com project showcase",
+    challenge: "The project needed a sharper commercial narrative, a cleaner educational product presentation, and a site structure that could turn interest in AI upskilling into qualified inquiries and program demand.",
+    approachTitle: "How Techbeyond Solution would package the rollout",
+    approachLead: "We would position the website as both a learning destination and a conversion system, tightening the message hierarchy, proof flow, and service routing around the offer.",
+    approachBody: "The rollout would combine AI-focused messaging, cleaner page architecture, stronger internal calls to action, and a launch stack that supports both credibility and conversion as the brand grows.",
+    timeline: "5-7 weeks",
+    approachSteps: [
+      "Clarify the core AI education offer and target audience segments",
+      "Rebuild the site hierarchy around trust, curriculum, and conversion paths",
+      "Launch with analytics, lead capture, and follow-up automation ready"
+    ],
+    outcomes: [
+      "Clearer positioning for the AI learning offer",
+      "A stronger conversion path from content into inquiry",
+      "A project case study aligned with the Techbeyond Solution brand"
+    ],
+    fullMetrics: [
+      { label: "Message clarity", before: "General AI pitch", after: "Offer-led education funnel" },
+      { label: "Launch readiness", before: "Fragmented pages", after: "Structured conversion system" }
+    ],
+    resultsTitle: "What changed after the rebuild",
+    resultsLead: "The project becomes easier to understand, easier to trust, and easier to act on once the positioning, proof, and page flow are rebuilt as one commercial system.",
+    stats: [
+      { value: "3.2x", label: "stronger CTA visibility" },
+      { value: "42%", label: "clearer funnel progression" }
+    ],
+    testimonial: null
+  }
+];
+
+export const portfolioProjects = [...featuredProjectAdditions, ...portfolioSource.map(makeProject)];

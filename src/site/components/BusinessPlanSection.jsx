@@ -37,7 +37,7 @@ const BusinessPlanSection = ({
             </div>
             <div className="tbx-page-box">
               <p className="tbx-page-kicker">Current route</p>
-              <p>Business-plan requests stay inside the same Techbeyond contact and booking flow used across the site.</p>
+              <p>Business-plan requests stay inside the same Techbeyond Solution contact and booking flow used across the site.</p>
             </div>
           </div>
         </div>

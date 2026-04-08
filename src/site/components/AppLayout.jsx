@@ -17,6 +17,8 @@ const footerGroups = [
   },
 ];
 
+const whatsappLink = "https://api.whatsapp.com/send/?phone=918877214277&text=Hello&type=phone_number&app_absent=0";
+
 const AppLayout = ({ children }) => {
   const location = useLocation();
   const [menuOpen, setMenuOpen] = useState(false);
@@ -136,7 +138,7 @@ const AppLayout = ({ children }) => {
               <p className="sj-kicker">LET&apos;S GET STARTED</p>
               <h2 className="sj-section-title">Ready to build a cleaner growth system?</h2>
               <p className="sj-copy">
-                Tell us where demand, conversion, or follow-up is breaking. We&apos;ll show you how Techbeyond would restructure it.
+                Tell us where demand, conversion, or follow-up is breaking. We&apos;ll show you how Techbeyond Solution would restructure it.
               </p>
             </div>
             <Link to="/pricing" className="sj-button sj-button-light">
@@ -169,6 +171,10 @@ const AppLayout = ({ children }) => {
                 <span>email</span>
                 <a href={`mailto:${businessEndpoints.emails.primary}`}>{businessEndpoints.emails.primary}</a>
               </div>
+              <div className="sj-footer-meta">
+                <span>location</span>
+                <p>Sector 2 Noida 201301, Uttar Pradesh, India</p>
+              </div>
               <div className="sj-newsletter">
                 <p className="sj-footer-heading">need a faster route?</p>
                 <Link to="/pricing" className="sj-button sj-button-light sj-button-block">
@@ -184,6 +190,15 @@ const AppLayout = ({ children }) => {
           </div>
         </div>
       </footer>
+      <a
+        href={whatsappLink}
+        className="sj-whatsapp-float"
+        target="_blank"
+        rel="noreferrer"
+        aria-label="Open WhatsApp chat with Techbeyond Solution"
+      >
+        <i className="bi bi-whatsapp" />
+      </a>
     </div>
   );
 };

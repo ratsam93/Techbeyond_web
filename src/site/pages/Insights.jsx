@@ -8,7 +8,7 @@ const Insights = () => (
   <AppLayout>
     <SEOHead
       title="Blog"
-      description="Techbeyond research, playbooks, and field notes on LinkedIn, SEO, websites, paid media, and automation."
+      description="Techbeyond Solution research, playbooks, and field notes on LinkedIn, SEO, websites, paid media, and automation."
       canonicalPath="/blog"
     />
 
@@ -18,7 +18,7 @@ const Insights = () => (
           <p className="sj-kicker">BLOG</p>
           <h1 className="sj-section-title">Research, playbooks, and growth-system thinking</h1>
           <p className="sj-copy sj-section-copy">
-            Practical notes from Techbeyond on LinkedIn demand generation, search visibility, website structure, paid media, and operational follow-through.
+            Practical notes from Techbeyond Solution on LinkedIn demand generation, search visibility, website structure, paid media, and operational follow-through.
           </p>
         </AnimatedSection>
       </div>

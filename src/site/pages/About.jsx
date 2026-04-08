@@ -111,7 +111,7 @@ const About = () => (
       <div className="sj-shell">
         <AnimatedSection>
           <p className="sj-kicker">CORE DISCIPLINES</p>
-          <h2 className="sj-section-title">How Techbeyond is structured behind the work</h2>
+          <h2 className="sj-section-title">How Techbeyond Solution is structured behind the work</h2>
           <p className="sj-copy sj-section-copy">
             Each discipline exists to keep strategy, production, optimization, and follow-up connected instead of split across disconnected vendors.
           </p>

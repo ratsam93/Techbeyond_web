@@ -4,6 +4,7 @@ import AppLayout from "../components/AppLayout";
 import AnimatedSection from "../components/AnimatedSection";
 import BusinessPlanSection from "../components/BusinessPlanSection";
 import FaqAccordion from "../components/FaqAccordion";
+import SchedulerEmbed from "../components/SchedulerEmbed";
 import SEOHead from "../components/SEOHead";
 import StatCounter from "../components/StatCounter";
 import { usePricingCatalog } from "../hooks/usePricingCatalog.js";
@@ -23,26 +24,12 @@ import {
   trustedLogos,
 } from "../data/techbeyondContent.js";
 
-const buildBookingEmbedUrl = (url) => {
-  if (!url) {
-    return "";
-  }
-
-  try {
-    const parsedUrl = new URL(url);
-    parsedUrl.searchParams.set("hide_gdpr_banner", "1");
-    parsedUrl.searchParams.set("primary_color", "111827");
-    return parsedUrl.toString();
-  } catch {
-    return url;
-  }
-};
-
 const Home = () => {
   const [billing, setBilling] = useState("monthly");
   const [showStrategyCalendar, setShowStrategyCalendar] = useState(false);
   const strategyCalendarRef = useRef(null);
   const { homepagePlans, bookingSettings } = usePricingCatalog();
+  const signatureLines = ["TECHBEYOND", "SOLUTIONS"];
   const plans = useMemo(
     () =>
       homepagePlans
@@ -53,11 +40,6 @@ const Home = () => {
         })),
     [billing, homepagePlans],
   );
-  const strategyCallEmbedUrl = useMemo(
-    () => buildBookingEmbedUrl(bookingSettings.strategyCallUrl),
-    [bookingSettings.strategyCallUrl],
-  );
-
   const marqueeLogos = [...trustedLogos, ...trustedLogos];
 
   useEffect(() => {
@@ -69,7 +51,7 @@ const Home = () => {
   return (
     <AppLayout>
       <SEOHead
-        title="Techbeyond | Build, market, and scale with one growth system"
+        title="Techbeyond Solution | Build, market, and scale with one growth system"
         description={siteBrand.description}
         canonicalPath="/"
       />
@@ -127,10 +109,10 @@ const Home = () => {
                   </button>
                 </div>
 
-                {strategyCallEmbedUrl ? (
-                  <iframe
+                {bookingSettings.strategyCallUrl ? (
+                  <SchedulerEmbed
                     title="Book a strategy call"
-                    src={strategyCallEmbedUrl}
+                    value={bookingSettings.strategyCallUrl}
                     className="sj-inline-calendar-frame"
                   />
                 ) : (
@@ -147,7 +129,7 @@ const Home = () => {
 
           <AnimatedSection delay={220}>
             <div className="sj-logo-strip">
-              <p className="sj-kicker">CORE CHANNELS INSIDE THE TECHBEYOND SYSTEM</p>
+              <p className="sj-kicker">CORE CHANNELS INSIDE THE TECHBEYOND SOLUTION SYSTEM</p>
               <div className="sj-logo-marquee">
                 <div className="sj-logo-track">
                   {marqueeLogos.map((logo, index) => (
@@ -195,7 +177,7 @@ const Home = () => {
             <p className="sj-kicker">OUR WORKS</p>
             <h2 className="sj-section-title">Case studies from growth and systems rebuilds.</h2>
             <p className="sj-copy sj-section-copy">
-              Selected Techbeyond work across websites, demand generation, CRM automation, and conversion architecture.
+              Selected Techbeyond Solution work across websites, demand generation, CRM automation, and conversion architecture.
             </p>
           </AnimatedSection>
 
@@ -287,7 +269,7 @@ const Home = () => {
             <p className="sj-kicker">SERVICES</p>
             <h2 className="sj-section-title">Services that move demand, conversion, and delivery together</h2>
             <p className="sj-copy sj-section-copy">
-              Techbeyond covers the front of the funnel and the systems behind it so growth does not break after the first lead arrives.
+              Techbeyond Solution covers the front of the funnel and the systems behind it so growth does not break after the first lead arrives.
             </p>
           </AnimatedSection>
 
@@ -326,9 +308,9 @@ const Home = () => {
         <div className="sj-shell">
           <AnimatedSection>
             <p className="sj-kicker">WHY US</p>
-            <h2 className="sj-section-title">Why teams choose Techbeyond over fragmented execution</h2>
+            <h2 className="sj-section-title">Why teams choose Techbeyond Solution over fragmented execution</h2>
             <p className="sj-copy sj-section-copy">
-              Most vendors optimize one narrow channel. Techbeyond aligns positioning, traffic, pages, follow-up, and reporting in one coordinated model.
+              Most vendors optimize one narrow channel. Techbeyond Solution aligns positioning, traffic, pages, follow-up, and reporting in one coordinated model.
             </p>
           </AnimatedSection>
 
@@ -517,6 +499,33 @@ const Home = () => {
               </div>
             </AnimatedSection>
           </div>
+        </div>
+      </section>
+
+      <section className="sj-home-signature-wrap">
+        <div className="sj-shell">
+          <AnimatedSection>
+            <div className="sj-home-signature">
+              <p className="sj-home-signature-kicker">Techbeyond Solution</p>
+              <div className="sj-home-signature-aura" />
+              <div className="sj-home-signature-glow" />
+              <div className="sj-home-signature-lines" aria-label="TECHBEYOND SOLUTION" role="img">
+                {signatureLines.map((line, lineIndex) => (
+                  <div key={line} className="sj-home-signature-line">
+                    {line.split("").map((character, characterIndex) => (
+                      <span
+                        key={`${line}-${characterIndex}`}
+                        className="sj-home-signature-char"
+                        style={{ "--char-index": lineIndex * 12 + characterIndex }}
+                      >
+                        {character}
+                      </span>
+                    ))}
+                  </div>
+                ))}
+              </div>
+            </div>
+          </AnimatedSection>
         </div>
       </section>
     </AppLayout>

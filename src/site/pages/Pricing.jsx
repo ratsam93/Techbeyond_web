@@ -64,7 +64,7 @@ const renderStatusCopy = (status, serviceSlug) => {
   if (status === "success") {
     return {
       title: "Payment confirmed",
-      body: `Your payment for ${serviceSlug || "the selected service"} has been verified. The Techbeyond team can use your submitted details to move into next steps.`,
+      body: `Your payment for ${serviceSlug || "the selected service"} has been verified. The Techbeyond Solution team can use your submitted details to move into next steps.`,
       tone: "success",
     };
   }
@@ -154,7 +154,7 @@ const Pricing = () => {
         key: orderPayload.keyId,
         amount: orderPayload.order.amount,
         currency: orderPayload.order.currency,
-        name: "Techbeyond",
+        name: "Techbeyond Solution",
         description: item.title,
         order_id: orderPayload.order.id,
         prefill: {
@@ -212,8 +212,8 @@ const Pricing = () => {
   return (
     <AppLayout>
       <SEOHead
-        title="Techbeyond | Pricing"
-        description="Live Techbeyond pricing for instant-pay services, quote-first engagements, and scope-based delivery planning."
+        title="Techbeyond Solution | Pricing"
+        description="Live Techbeyond Solution pricing for instant-pay services, quote-first engagements, and scope-based delivery planning."
         canonicalPath="/pricing"
       />
 
@@ -223,7 +223,7 @@ const Pricing = () => {
             <p className="sj-kicker">Pricing</p>
             <h1 className="sj-section-title">Choose the service, set the scope, and pay from the website.</h1>
             <p className="sj-copy sj-section-copy">
-              Techbeyond now runs a hybrid pricing flow: simpler delivery tracks can be purchased directly, while larger systems stay on a quote-first path.
+              Techbeyond Solution now runs a hybrid pricing flow: simpler delivery tracks can be purchased directly, while larger systems stay on a quote-first path.
             </p>
           </AnimatedSection>
         </div>
@@ -277,7 +277,7 @@ const Pricing = () => {
                       </label>
                       <label>
                         <span>Email</span>
-                        <input value={buyer.email} onChange={(event) => handleBuyerChange("email", event.target.value)} placeholder="info@techbeyond.com" />
+                        <input value={buyer.email} onChange={(event) => handleBuyerChange("email", event.target.value)} placeholder="info@techbeyondsolutions.com" />
                       </label>
                       <label>
                         <span>Phone</span>
