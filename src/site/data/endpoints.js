@@ -1,0 +1,56 @@
+export const businessEndpoints = {
+  emails: {
+    primary: "info@techbeyondsolution.com",
+    sales: "info@techbeyondsolution.com",
+    support: "info@techbeyondsolution.com",
+    strategy: "info@techbeyondsolution.com",
+    businessPlans: "info@techbeyondsolution.com",
+    partnerships: "info@techbeyondsolution.com",
+    careers: "info@techbeyondsolution.com",
+  },
+  contact: {
+    page: "/contact",
+    strategyCall: "/contact?intent=strategy-call",
+    businessPlanRequest: "/contact?intent=business-plan",
+    projectInquiry: "/contact?intent=project-inquiry",
+  },
+  booking: {
+    provider: "TidyCal",
+    strategyCallUrl: "chat-with-sam/digital-coffee",
+    businessPlanUrl: "chat-with-sam/digital-coffee",
+  },
+  submission: {
+    contactForm: null,
+    businessPlanForm: null,
+    notes: "Frontend capture exists. Backend/API submission endpoint is not implemented yet.",
+  },
+  social: {
+    instagram: "https://www.instagram.com/Techbeyond.io/",
+    linkedin: "https://linkedin.com/",
+  },
+};
+
+export const routeInventory = [
+  { path: "/", status: "live", owner: "homepage" },
+  { path: "/services", status: "live", owner: "services-hub" },
+  { path: "/services/:slug", status: "live", owner: "service-category" },
+  { path: "/services/:parentSlug/:childSlug", status: "live", owner: "service-detail" },
+  { path: "/projects", status: "live", owner: "case-studies" },
+  { path: "/projects/:slug", status: "live", owner: "case-study-detail" },
+  { path: "/about", status: "live", owner: "about" },
+  { path: "/blog", status: "live", owner: "insights" },
+  { path: "/blog/:slug", status: "live", owner: "insight-detail" },
+  { path: "/contact", status: "live", owner: "contact" },
+  { path: "/privacy-policy", status: "live", owner: "legal" },
+  { path: "/terms-and-condition", status: "redirect", owner: "legal" },
+  { path: "/pricing", status: "live", owner: "pricing" },
+  { path: "/process", status: "planned_redirect", owner: "process" },
+  { path: "/sitemap", status: "planned_redirect", owner: "sitemap" },
+  { path: "/faqs/:slug", status: "planned_redirect", owner: "faq-cluster" },
+  { path: "/solutions", status: "planned_redirect", owner: "solutions-hub" },
+  { path: "/solutions/:industrySlug", status: "planned_redirect", owner: "industry-category" },
+  { path: "/solutions/:industrySlug/:solutionSlug", status: "planned_redirect", owner: "industry-solution" },
+  { path: "/industries/:industrySlug", status: "planned_redirect", owner: "industry-category-alias" },
+  { path: "/industries/:industrySlug/:solutionSlug", status: "planned_redirect", owner: "industry-solution-alias" },
+  { path: "/intelligence", status: "planned_redirect", owner: "intelligence" },
+];
