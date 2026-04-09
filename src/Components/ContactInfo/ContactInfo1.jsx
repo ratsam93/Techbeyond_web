@@ -29,7 +29,7 @@ const ContactInfo1 = () => {
                                 </div>
                                 <div className="heading">
                                     <h5>Send Us a Mail</h5>
-                                        <a href="mailto:info@techbeyondsolutions.com" className="text">info@techbeyondsolutions.com</a>
+                <a href="mailto:info@techbeyondsolution.com" className="text">info@techbeyondsolution.com</a>
                                 </div>
                             </div>
 
