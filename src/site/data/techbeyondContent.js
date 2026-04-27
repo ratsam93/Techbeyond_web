@@ -2,10 +2,16 @@ import { siteBrand as legacyBrand } from "./content.js";
 import { portfolioProjects } from "./portfolio.js";
 
 const brandEmail = "info@techbeyondsolution.com";
+<<<<<<< HEAD
 const svgDataUri = (svg) => `data:image/svg+xml;utf8,${encodeURIComponent(svg)}`;
 
 const brandWordmark = "/assets/img/logo/techbeyond-full-logo.webp";
 
+=======
+const brandWordmark = "https://media.licdn.com/dms/image/v2/C560BAQEV0RZ1ggfhsg/company-logo_200_200/company-logo_200_200/0/1673270026877/techbeyond_solution_logo?e=1777507200&v=beta&t=UgijWfq7jMXEnEFpnz-QFzVDCC5W4GftuHr1rQeEqrw";
+const svgDataUri = (svg) => `data:image/svg+xml;utf8,${encodeURIComponent(svg)}`;
+
+>>>>>>> 94c8f7223cd50d50acd1cef9dd998d9c614ea3db
 const labelLogo = (label) =>
   svgDataUri(`
 <svg xmlns="http://www.w3.org/2000/svg" width="260" height="70" viewBox="0 0 260 70" fill="none">
@@ -25,8 +31,12 @@ export const siteBrand = {
   name: "Techbeyond Solution",
   url: legacyBrand.url,
   email: brandEmail,
+<<<<<<< HEAD
   phone: "+91 88772 14277",
   phoneHref: "https://api.whatsapp.com/send/?phone=918877214277&text=Hello",
+=======
+  phone: "Strategy calls by appointment",
+>>>>>>> 94c8f7223cd50d50acd1cef9dd998d9c614ea3db
   tagline: "Build. Market. Scale.",
   description:
     "Techbeyond Solution helps businesses generate pipeline and improve execution through LinkedIn-led growth, SEO, websites, paid media, automation, and creative systems.",
@@ -334,32 +344,56 @@ export const teamMembers = [
   {
     name: "LinkedIn & Authority",
     role: "Positioning, content systems, outreach, and appointment flow",
+<<<<<<< HEAD
     image: "/team/indian-corporate-1.webp",
+=======
+    image: "/team/indian-corporate-1.jpg",
+>>>>>>> 94c8f7223cd50d50acd1cef9dd998d9c614ea3db
   },
   {
     name: "SEO & Demand Capture",
     role: "Technical SEO, GEO, answer-engine content, and traffic intent",
+<<<<<<< HEAD
     image: "/team/indian-corporate-2.webp",
+=======
+    image: "/team/indian-corporate-2.jpg",
+>>>>>>> 94c8f7223cd50d50acd1cef9dd998d9c614ea3db
   },
   {
     name: "Web & Funnel Engineering",
     role: "Sites, landing pages, conversion flow, and performance tuning",
+<<<<<<< HEAD
     image: "/team/indian-corporate-3.webp",
+=======
+    image: "/team/indian-corporate-3.jpg",
+>>>>>>> 94c8f7223cd50d50acd1cef9dd998d9c614ea3db
   },
   {
     name: "Paid Media & Creative",
     role: "Campaign structure, creative direction, and optimization loops",
+<<<<<<< HEAD
     image: "/team/indian-corporate-4.webp",
+=======
+    image: "/team/indian-corporate-4.jpg",
+>>>>>>> 94c8f7223cd50d50acd1cef9dd998d9c614ea3db
   },
   {
     name: "CRM & Automation",
     role: "Lead routing, nurture sequences, WhatsApp, and reporting systems",
+<<<<<<< HEAD
     image: "/team/indian-corporate-5.webp",
+=======
+    image: "/team/indian-corporate-5.jpg",
+>>>>>>> 94c8f7223cd50d50acd1cef9dd998d9c614ea3db
   },
   {
     name: "Delivery & Optimization",
     role: "QA, reporting, iteration, and keeping the machine moving",
+<<<<<<< HEAD
     image: "/team/indian-corporate-6.webp",
+=======
+    image: "/team/indian-corporate-6.jpg",
+>>>>>>> 94c8f7223cd50d50acd1cef9dd998d9c614ea3db
   },
 ];
 

@@ -631,7 +631,11 @@ const featuredProjectAdditions = [
     summary: "An AI education and authority-platform project focused on clearer positioning, a stronger learning funnel, and launch-ready content architecture.",
     industry: "AI Education Platform",
     services: ["AI Strategy", "Website Systems", "Launch Support"],
+<<<<<<< HEAD
     image: "/portfolio/projects/mastertheaishift-com.webp",
+=======
+    image: "/portfolio/master-the-ai-shift.png",
+>>>>>>> 94c8f7223cd50d50acd1cef9dd998d9c614ea3db
     imageAlt: "mastertheaishift.com project showcase",
     challenge: "The project needed a sharper commercial narrative, a cleaner educational product presentation, and a site structure that could turn interest in AI upskilling into qualified inquiries and program demand.",
     approachTitle: "How Techbeyond Solution would package the rollout",

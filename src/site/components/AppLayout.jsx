@@ -17,7 +17,11 @@ const footerGroups = [
   },
 ];
 
+<<<<<<< HEAD
 const whatsappLink = siteBrand.phoneHref;
+=======
+const whatsappLink = "https://api.whatsapp.com/send/?phone=918877214277&text=Hello&type=phone_number&app_absent=0";
+>>>>>>> 94c8f7223cd50d50acd1cef9dd998d9c614ea3db
 
 const AppLayout = ({ children }) => {
   const location = useLocation();
@@ -172,10 +176,13 @@ const AppLayout = ({ children }) => {
                 <a href={`mailto:${businessEndpoints.emails.primary}`}>{businessEndpoints.emails.primary}</a>
               </div>
               <div className="sj-footer-meta">
+<<<<<<< HEAD
                 <span>phone</span>
                 <a href={siteBrand.phoneHref} target="_blank" rel="noreferrer">{siteBrand.phone}</a>
               </div>
               <div className="sj-footer-meta">
+=======
+>>>>>>> 94c8f7223cd50d50acd1cef9dd998d9c614ea3db
                 <span>location</span>
                 <p>Sector 2 Noida 201301, Uttar Pradesh, India</p>
               </div>
