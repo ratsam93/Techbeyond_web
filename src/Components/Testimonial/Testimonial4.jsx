@@ -62,7 +62,7 @@ const Testimonial4 = () => {
                 <div className="row align-items-center">
                     <div className="col-lg-4">
                         <div className="big-image" data-aos="fade-up" data-aos-duration="900">
-                            <img src="/assets/img/testimonial/tes7-big-img.png" alt="" />
+                            <img src="/assets/img/testimonial/tes7-big-img.webp" alt="" />
                         </div>
                     </div>
                     <div className="col-lg-8">
@@ -73,7 +73,7 @@ const Testimonial4 = () => {
                                 {data.map((item, i) => (
                                 <div key={i} className="single-slider">
                                     <div className="qute quote_icon_5">
-                                        <img src="/assets/img/icons/qute7.png" alt="" />
+                                        <img src="/assets/img/icons/qute7.webp" alt="" />
                                     </div>
                                     <p>{item.desc}</p>
                                     <div className="bottom-area">

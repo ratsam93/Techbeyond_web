@@ -62,100 +62,97 @@ const titleWordMap = {
 const categoryVisuals = {
   "AI Strategy": {
     heroes: [
-      "https://upload.wikimedia.org/wikipedia/commons/2/25/Artificial_intelligence_technology_symposium_in_B.S_Abdur_Rahman_Crescent_University.jpg",
-      "https://live.staticflickr.com/5567/14696937320_c76e4b8646_b.jpg",
-      "https://live.staticflickr.com/2284/2263161375_820c5a83c2_b.jpg",
-      "https://live.staticflickr.com/8367/8497395824_085e58bce3_b.jpg",
-      "https://live.staticflickr.com/3902/15126339686_0481de293c.jpg",
-      "https://live.staticflickr.com/3284/2323236049_8d4bbc686e_b.jpg",
+      "/assets/img/blog/blog-img1.webp",
+      "/assets/img/blog/blog-img2.webp",
+      "/assets/img/blog/blog-img3.webp",
     ],
   },
   "App Development": {
     heroes: [
-      "https://live.staticflickr.com/4423/36422475626_a30c804647.jpg",
-      "https://live.staticflickr.com/1163/5148408065_49ce537223.jpg",
-      "https://live.staticflickr.com/8209/8242697669_e53bc78bf5.jpg",
-      "https://live.staticflickr.com/8312/8022462971_b56029201a_b.jpg",
-      "https://live.staticflickr.com/7065/6937505229_533820a386_b.jpg",
-      "https://live.staticflickr.com/4708/39593666341_4bdcdd510d_b.jpg",
-      "https://live.staticflickr.com/4468/37271985530_26fcfe0ab3_b.jpg",
-      "https://live.staticflickr.com/4580/25040901448_dd8f231fd3_b.jpg",
+      "/assets/img/blog/blog2-img1.webp",
+      "/assets/img/blog/blog2-img2.webp",
+      "/assets/img/blog/blog2-img3.webp",
     ],
   },
   "Delivery Strategy": {
     heroes: [
-      "https://live.staticflickr.com/1964/43972155510_f2e51b6b0b_b.jpg",
-      "https://live.staticflickr.com/1927/45739276432_9f63372d99_b.jpg",
-      "https://live.staticflickr.com/8733/16928440321_71f35c1734_b.jpg",
-      "https://live.staticflickr.com/8109/8466032002_127e4899cf.jpg",
+      "/assets/img/blog/blog3-img1.webp",
+      "/assets/img/blog/blog3-img2.webp",
+      "/assets/img/blog/blog4-img1.webp",
     ],
   },
   "Game Development": {
     heroes: [
-      "https://live.staticflickr.com/8429/7728582220_9ae10c6505_b.jpg",
-      "https://live.staticflickr.com/8649/15812993733_ba0519e11d_b.jpg",
-      "https://upload.wikimedia.org/wikipedia/commons/4/4d/Brianna_Wu_%28Video_Game_Developer%29_REF-105735.jpg",
-      "https://live.staticflickr.com/5059/5457810773_3835c89ffd_b.jpg",
+      "/assets/img/blog/blog4-img2.webp",
+      "/assets/img/blog/blog5-img1.webp",
+      "/assets/img/blog/blog5-img2.webp",
     ],
   },
   "Product Breakdowns": {
     heroes: [
-      "https://live.staticflickr.com/4423/36422475626_a30c804647.jpg",
-      "https://live.staticflickr.com/8312/8022462971_b56029201a_b.jpg",
-      "https://live.staticflickr.com/7065/6937505229_533820a386_b.jpg",
-      "https://upload.wikimedia.org/wikipedia/commons/7/72/Social_Media_Marketing_Strategy.jpg",
-      "https://live.staticflickr.com/4061/4427892518_03d88ab9dc_b.jpg",
-      "https://live.staticflickr.com/3267/3256031851_6d0a863f71.jpg",
+      "/assets/img/blog/blog6-img1.webp",
+      "/assets/img/blog/blog6-img2.webp",
+      "/assets/img/blog/blog6-img3.webp",
     ],
   },
   "Platform Strategy": {
     heroes: [
-      "https://upload.wikimedia.org/wikipedia/commons/7/72/Social_Media_Marketing_Strategy.jpg",
-      "https://live.staticflickr.com/7112/7420589920_ed630e8c3a_b.jpg",
-      "https://live.staticflickr.com/4061/4427892518_03d88ab9dc_b.jpg",
-      "https://live.staticflickr.com/8519/8497700128_e78a570468.jpg",
-      "https://live.staticflickr.com/4146/4967974800_1bde79c6a5_b.jpg",
-      "https://live.staticflickr.com/8109/8466032002_127e4899cf.jpg",
+      "/assets/img/blog/blog9-img1.webp",
+      "/assets/img/blog/blog9-img2.webp",
+      "/assets/img/blog/blog-hero-area.webp",
     ],
   },
   "Software Systems": {
     heroes: [
-      "https://live.staticflickr.com/7213/6887025506_38362b2f59_b.jpg",
-      "https://live.staticflickr.com/3541/3679964891_bd1ce18eed_b.jpg",
-      "https://live.staticflickr.com/7180/6799663908_a9b32f952d_b.jpg",
-      "https://live.staticflickr.com/3923/15204215650_f6cf50d027_b.jpg",
-      "https://live.staticflickr.com/4877/31906693748_56c0d4e898_b.jpg",
-      "https://live.staticflickr.com/3014/2907871023_ee95cc10a1_b.jpg",
+      "/assets/img/blog/blog-details-hero.webp",
+      "/assets/img/blog/blog-details-img1.webp",
+      "/assets/img/blog/blog-post-video-img.webp",
     ],
   },
   "Web Development": {
     heroes: [
-      "https://live.staticflickr.com/5803/21909339284_de3402470f_b.jpg",
-      "https://live.staticflickr.com/5770/22344385088_3b948b0937_b.jpg",
-      "https://live.staticflickr.com/701/22344134220_5dc7c9589e_b.jpg",
-      "https://live.staticflickr.com/758/22518583822_fb4f9fefbf_b.jpg",
-      "https://live.staticflickr.com/615/22518571782_f0cccc501a_b.jpg",
-      "https://live.staticflickr.com/733/22518591062_58505a96de_b.jpg",
+      "/assets/img/blog/blog2-img4.webp",
+      "/assets/img/blog/blog2-img5.webp",
+      "/assets/img/blog/blog2-img6.webp",
     ],
   },
 };
 
 const categoryOccurrenceMap = new Map();
+const localBlogVisuals = [
+  "/assets/img/blog/blog-img1.webp",
+  "/assets/img/blog/blog-img2.webp",
+  "/assets/img/blog/blog-img3.webp",
+  "/assets/img/blog/blog2-img1.webp",
+  "/assets/img/blog/blog2-img2.webp",
+  "/assets/img/blog/blog2-img3.webp",
+  "/assets/img/blog/blog3-img1.webp",
+  "/assets/img/blog/blog3-img2.webp",
+  "/assets/img/blog/blog4-img1.webp",
+  "/assets/img/blog/blog4-img2.webp",
+  "/assets/img/blog/blog5-img1.webp",
+  "/assets/img/blog/blog5-img2.webp",
+];
 
 const getVisualSet = (category) => {
-  const visualPack = categoryVisuals[category] || categoryVisuals["Software Systems"];
   const occurrence = categoryOccurrenceMap.get(category) || 0;
   categoryOccurrenceMap.set(category, occurrence + 1);
 
-  const heroes = visualPack.heroes || [];
-  const hero = heroes[occurrence % heroes.length];
+  const categoryIndex = Object.keys(categoryLabelMap).indexOf(
+    Object.keys(categoryLabelMap).find((key) => categoryLabelMap[key] === category) || "",
+  );
+  const startIndex = Math.max(categoryIndex, 0) + occurrence;
+  const heroes = localBlogVisuals;
+  const hero = heroes[startIndex % heroes.length];
   const inline = [
-    heroes[(occurrence + 1) % heroes.length],
-    heroes[(occurrence + 2) % heroes.length],
+    heroes[(startIndex + 1) % heroes.length],
+    heroes[(startIndex + 2) % heroes.length],
   ];
 
   return { hero, inline };
 };
+
+const blogImageFor = (slug, suffix = "") => `/assets/img/blog/posts/${slug}${suffix}.webp`;
 
 const categoryServiceMap = {
   "AI Strategy": {
@@ -415,7 +412,8 @@ const basePosts = blogIdeas.map((item) => {
   const defaults = categoryServiceMap[category] || categoryServiceMap["Software Systems"];
   const overrides = slugOverrides[item.slug] || {};
   const title = toTitle(item.slug);
-  const visualPack = getVisualSet(category);
+  const heroImage = blogImageFor(item.slug);
+  const inlineVisuals = [blogImageFor(item.slug, "-support-1"), blogImageFor(item.slug, "-support-2")];
   const primaryKeyword = overrides.primaryKeyword || defaults.primaryKeyword;
   const secondaryKeywords = overrides.secondaryKeywords || defaults.secondaryKeywords;
   const relatedServiceSlugs = overrides.serviceSlugs || defaults.serviceSlugs;
@@ -432,10 +430,10 @@ const basePosts = blogIdeas.map((item) => {
     category,
     title,
     excerpt: buildExcerpt(title, primaryKeyword, defaults.serviceLead),
-    image: visualPack.hero,
-    heroImage: visualPack.hero,
+    image: heroImage,
+    heroImage,
     heroImageAlt: `${title} strategy illustration`,
-    inlineImages: visualPack.inline.map((imageUrl, visualIndex) => ({
+    inlineImages: inlineVisuals.map((imageUrl, visualIndex) => ({
       src: imageUrl,
       alt: `${title} supporting visual ${visualIndex + 1}`,
     })),
@@ -458,9 +456,13 @@ export const blogPosts = basePosts.map((post) => {
     .filter((candidate) => candidate.slug !== post.slug && candidate.category === post.category)
     .slice(0, 3)
     .map((candidate) => candidate.slug);
+  const fallbackPosts = basePosts
+    .filter((candidate) => candidate.slug !== post.slug && !siblingPosts.includes(candidate.slug))
+    .slice(0, 3 - siblingPosts.length)
+    .map((candidate) => candidate.slug);
 
   return {
     ...post,
-    relatedPostSlugs: siblingPosts,
+    relatedPostSlugs: [...siblingPosts, ...fallbackPosts],
   };
 });

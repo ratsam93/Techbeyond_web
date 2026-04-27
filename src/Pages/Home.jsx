@@ -13,22 +13,22 @@ const Home = () => {
     return (
         <div className="home-page1">
             <HeroBanner1
-                bgImg="/assets/img/bg/hero1-bg.png"
+                bgImg="/assets/img/bg/hero1-bg.webp"
                 subTitle="TechXen Technology & It Solution"
                 title="Transform Your Business With Next Generation <span class='after'>IT Solutions</span>"
                 content="Welcome to TechXen where we specialise in delivering tailored technology and IT solutions designed to propel your business forward. From streamlining operations to and driving growth."
                 btnName="Get Started Now"
                 btnUrl="/contact"
-                image1="/assets/img/hero/hero1-image1.png"
-                image2="/assets/img/hero/hero1-image2.png"
-                shapeImage1="/assets/img/hero/hero1-image3.png"
-                shapeiamge2="/assets/img/hero/hero1-image4.png"
+                image1="/assets/img/hero/hero1-image1.webp"
+                image2="/assets/img/hero/hero1-image2.webp"
+                shapeImage1="/assets/img/hero/hero1-image3.webp"
+                shapeiamge2="/assets/img/hero/hero1-image4.webp"
             ></HeroBanner1>
             <Award1></Award1>
             <About1
-                image1="/assets/img/about/about1-img1.png"
-                image2="/assets/img/about/about1-img2.png"
-                supIcon="/assets/img/icons/about1-shape-icon.png"
+                image1="/assets/img/about/about1-img1.webp"
+                image2="/assets/img/about/about1-img2.webp"
+                supIcon="/assets/img/icons/about1-shape-icon.webp"
                 supTitle="24/7 Support"
                 supCon="TechXen Technology & It Solution"
                 subTitle="About Our Company"

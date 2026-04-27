@@ -41,7 +41,7 @@ export default function Header4({ variant }) {
 
             <div className="cs_main_header_left">
               <Link className="cs_site_branding header-four"  to="/">
-                <img src="/assets/img/logo/header4-logo.png" alt="Logo" />
+                <img src="/assets/img/logo/techbeyond-full-logo.webp" alt="Logo" />
               </Link>
               </div>
 

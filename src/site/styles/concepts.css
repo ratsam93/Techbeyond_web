@@ -213,7 +213,7 @@
   min-height: 15rem;
   background:
     linear-gradient(180deg, rgba(11, 17, 39, 0.18), rgba(11, 17, 39, 0.58)),
-    url("https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=1400&q=80") center/cover;
+    url("/assets/img/others/project-hero-img.webp") center/cover;
 }
 
 .tbx-concept-page {
@@ -345,7 +345,7 @@
   border-radius: 1.8rem;
   background:
     linear-gradient(180deg, rgba(9, 14, 34, 0.12), rgba(9, 14, 34, 0.7)),
-    url("https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=1600&q=80") center/cover;
+    url("/assets/img/others/solution-img1.webp") center/cover;
 }
 
 .tbx-editorial-band {
@@ -353,7 +353,7 @@
   border-radius: 1.8rem;
   background:
     linear-gradient(180deg, rgba(243, 239, 232, 0.12), rgba(228, 223, 214, 0.68)),
-    url("https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1600&q=80") center/cover;
+    url("/assets/img/others/solution-img2.webp") center/cover;
 }
 
 .tbx-page-statline {
@@ -416,13 +416,13 @@
   min-height: 100%;
   background:
     linear-gradient(180deg, rgba(255, 255, 255, 0.02), rgba(255, 255, 255, 0.02)),
-    url("https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1600&q=80") center/cover;
+    url("/assets/img/others/solution-img3.webp") center/cover;
 }
 
 .tbx-case-gallery-cinematic {
   background:
     linear-gradient(180deg, rgba(15, 10, 6, 0.12), rgba(15, 10, 6, 0.68)),
-    url("https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&w=1600&q=80") center/cover;
+    url("/assets/img/service/service-hero-image.webp") center/cover;
 }
 
 .tbx-page-table {

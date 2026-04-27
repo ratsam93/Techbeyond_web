@@ -29,7 +29,7 @@ const HeroBanner1 = ({bgImg,subTitle,title,content,btnName,btnUrl,image1,image2,
             <div className="row">
               <div className="col-lg-5">
                 <div className="main-headding">
-                  <span className="span" data-aos="zoom-in-left" data-aos-duration="700"><img src="/assets/img/icons/span1.png" alt="" /> {subTitle}</span>
+                  <span className="span" data-aos="zoom-in-left" data-aos-duration="700"><img src="/assets/img/icons/span1.webp" alt="" /> {subTitle}</span>
                   <h1 className="title tg-element-title">{parse(title)}</h1>
                   <div className="space16"></div>
                   <p>{content}</p>
@@ -59,10 +59,10 @@ const HeroBanner1 = ({bgImg,subTitle,title,content,btnName,btnUrl,image1,image2,
                     <img src={shapeiamge2} alt="" />
                   </div>
                   <div className="shape1">
-                    <img src="/assets/img/shapes/header1-shape1.png" alt="" /> 
+                    <img src="/assets/img/shapes/header1-shape1.webp" alt="" /> 
                   </div>
                   <div className="shape2">
-                    <img src="/assets/img/shapes/header1-shape2.png" alt="" />
+                    <img src="/assets/img/shapes/header1-shape2.webp" alt="" />
                   </div>
                 </div>
               </div>

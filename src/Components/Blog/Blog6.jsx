@@ -8,12 +8,12 @@ const Blog6 = () => {
             <div className="col-lg-6">
               <div className="blog2-box">
                 <div className="image">
-                  <img src="/assets/img/blog/blog2-img2.png" alt="" />
+                  <img src="/assets/img/blog/blog2-img2.webp" alt="" />
                 </div>
                 <div className="heading1">
                   <div className="tags">
-                    <a href="#" className="date"><img src="/assets/img/icons/date.png" alt="" /> 10/02/2024</a>
-                    <a href="#" className="date outhor"><img src="/assets/img/icons/user.png" alt="" /> Ben Cutting</a>
+                    <a href="#" className="date"><img src="/assets/img/icons/date.webp" alt="" /> 10/02/2024</a>
+                    <a href="#" className="date outhor"><img src="/assets/img/icons/user.webp" alt="" /> Ben Cutting</a>
                   </div>
                   <h4><Link to="/blog/blog-details">The Importance of Cybersecurity</Link></h4>
                   <div className="space16"></div>
@@ -27,12 +27,12 @@ const Blog6 = () => {
             <div className="col-lg-6">
               <div className="blog2-box">
                 <div className="image">
-                  <img src="/assets/img/blog/blog2-img1.png" alt="" />
+                  <img src="/assets/img/blog/blog2-img1.webp" alt="" />
                 </div>
                 <div className="heading1">
                   <div className="tags">
-                    <a href="#" className="date"><img src="/assets/img/icons/date.png" alt="" /> 10/02/2024</a>
-                    <a href="#" className="date outhor"><img src="/assets/img/icons/user.png" alt="" /> Ben Cutting</a>
+                    <a href="#" className="date"><img src="/assets/img/icons/date.webp" alt="" /> 10/02/2024</a>
+                    <a href="#" className="date outhor"><img src="/assets/img/icons/user.webp" alt="" /> Ben Cutting</a>
                   </div>
                   <h4><Link to="/blog/blog-details">The Future of Cloud Computing</Link></h4>
                   <div className="space16"></div>
@@ -46,12 +46,12 @@ const Blog6 = () => {
             <div className="col-lg-6">
                 <div className="blog2-box">
                   <div className="image">
-                    <img src="/assets/img/blog/blog2-img3.png" alt="" />
+                    <img src="/assets/img/blog/blog2-img3.webp" alt="" />
                   </div>
                   <div className="heading1">
                     <div className="tags">
-                      <a href="#" className="date"><img src="/assets/img/icons/date.png" alt="" /> 10/02/2024</a>
-                      <a href="#" className="date outhor"><img src="/assets/img/icons/user.png" alt="" /> Ben Cutting</a>
+                      <a href="#" className="date"><img src="/assets/img/icons/date.webp" alt="" /> 10/02/2024</a>
+                      <a href="#" className="date outhor"><img src="/assets/img/icons/user.webp" alt="" /> Ben Cutting</a>
                     </div>
                     <h4><Link to="/blog/blog-details">Embracing Remote Collaboration Tools</Link></h4>
                     <div className="space16"></div>
@@ -65,12 +65,12 @@ const Blog6 = () => {
               <div className="col-lg-6">
                 <div className="blog2-box">
                   <div className="image">
-                    <img src="/assets/img/blog/blog2-img4.png" alt="" />
+                    <img src="/assets/img/blog/blog2-img4.webp" alt="" />
                   </div>
                   <div className="heading1">
                     <div className="tags">
-                      <a href="#" className="date"><img src="/assets/img/icons/date.png" alt="" /> 10/02/2024</a>
-                      <a href="#" className="date outhor"><img src="/assets/img/icons/user.png" alt="" /> Ben Cutting</a>
+                      <a href="#" className="date"><img src="/assets/img/icons/date.webp" alt="" /> 10/02/2024</a>
+                      <a href="#" className="date outhor"><img src="/assets/img/icons/user.webp" alt="" /> Ben Cutting</a>
                     </div>
                     <h4><Link to="/blog/blog-details">Stay Up-to-Date With Technology</Link></h4>
                     <div className="space16"></div>
@@ -84,12 +84,12 @@ const Blog6 = () => {
               <div className="col-lg-6">
                 <div className="blog2-box">
                   <div className="image">
-                    <img src="/assets/img/blog/blog2-img5.png" alt="" />
+                    <img src="/assets/img/blog/blog2-img5.webp" alt="" />
                   </div>
                   <div className="heading1">
                     <div className="tags">
-                      <a href="#" className="date"><img src="/assets/img/icons/date.png" alt="" /> 10/02/2024</a>
-                      <a href="#" className="date outhor"><img src="/assets/img/icons/user.png" alt="" /> Ben Cutting</a>
+                      <a href="#" className="date"><img src="/assets/img/icons/date.webp" alt="" /> 10/02/2024</a>
+                      <a href="#" className="date outhor"><img src="/assets/img/icons/user.webp" alt="" /> Ben Cutting</a>
                     </div>
                     <h4><Link to="/blog/blog-details">Discover How Organisations Like Yours..</Link></h4>
                     <div className="space16"></div>
@@ -103,12 +103,12 @@ const Blog6 = () => {
               <div className="col-lg-6">
                 <div className="blog2-box">
                   <div className="image">
-                    <img src="/assets/img/blog/blog2-img6.png" alt="" />
+                    <img src="/assets/img/blog/blog2-img6.webp" alt="" />
                   </div>
                   <div className="heading1">
                     <div className="tags">
-                      <a href="#" className="date"><img src="/assets/img/icons/date.png" alt="" /> 10/02/2024</a>
-                      <a href="#" className="date outhor"><img src="/assets/img/icons/user.png" alt="" /> Ben Cutting</a>
+                      <a href="#" className="date"><img src="/assets/img/icons/date.webp" alt="" /> 10/02/2024</a>
+                      <a href="#" className="date outhor"><img src="/assets/img/icons/user.webp" alt="" /> Ben Cutting</a>
                     </div>
                     <h4><Link to="/blog/blog-details">Protecting Sensitive Data</Link></h4>
                     <div className="space16"></div>
@@ -123,12 +123,12 @@ const Blog6 = () => {
               <div className="col-lg-6">
                 <div className="blog2-box">
                   <div className="image">
-                    <img src="/assets/img/blog/blog2-img7.png" alt="" />
+                    <img src="/assets/img/blog/blog2-img7.webp" alt="" />
                   </div>
                   <div className="heading1">
                     <div className="tags">
-                      <a href="#" className="date"><img src="/assets/img/icons/date.png" alt="" /> 10/02/2024</a>
-                      <a href="#" className="date outhor"><img src="/assets/img/icons/user.png" alt="" /> Ben Cutting</a>
+                      <a href="#" className="date"><img src="/assets/img/icons/date.webp" alt="" /> 10/02/2024</a>
+                      <a href="#" className="date outhor"><img src="/assets/img/icons/user.webp" alt="" /> Ben Cutting</a>
                     </div>
                     <h4><Link to="/blog/blog-details">Preventing Cyber Attacks</Link></h4>
                     <div className="space16"></div>
@@ -142,12 +142,12 @@ const Blog6 = () => {
               <div className="col-lg-6">
                 <div className="blog2-box">
                   <div className="image">
-                    <img src="/assets/img/blog/blog2-img8.png" alt="" />
+                    <img src="/assets/img/blog/blog2-img8.webp" alt="" />
                   </div>
                   <div className="heading1">
                     <div className="tags">
-                      <a href="#" className="date"><img src="/assets/img/icons/date.png" alt="" /> 10/02/2024</a>
-                      <a href="#" className="date outhor"><img src="/assets/img/icons/user.png" alt="" /> Ben Cutting</a>
+                      <a href="#" className="date"><img src="/assets/img/icons/date.webp" alt="" /> 10/02/2024</a>
+                      <a href="#" className="date outhor"><img src="/assets/img/icons/user.webp" alt="" /> Ben Cutting</a>
                     </div>
                     <h4><Link to="/blog/blog-details">Maintaining Regulatory Compliance</Link></h4>
                     <div className="space16"></div>

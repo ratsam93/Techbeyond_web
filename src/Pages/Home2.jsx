@@ -23,14 +23,14 @@ const Home2 = () => {
                     "Cyber Security",
                     "Consulting Services",
                 ]}
-                image1="/assets/img/shapes/hero2-shape1.png"
-                image2="/assets/img/hero/hero2-main-img1.png"
-                image3="/assets/img/hero/hero2-main-img2.png"
+                image1="/assets/img/shapes/hero2-shape1.webp"
+                image2="/assets/img/hero/hero2-main-img1.webp"
+                image3="/assets/img/hero/hero2-main-img2.webp"
             ></HeroBanner2>
             <About2
-                image1="/assets/img/about/about2-img1.png"
-                image2="/assets/img/about/about2-img2.png"
-                image3="/assets/img/about/about2-img3.png"
+                image1="/assets/img/about/about2-img1.webp"
+                image2="/assets/img/about/about2-img2.webp"
+                image3="/assets/img/about/about2-img3.webp"
                 experienceNum="25"
                 experienceTitle="Years Of <br> Experience"
                 subTitle="Our Service"

@@ -18,12 +18,12 @@ const Blog4 = () => {
                 <div className="col-lg-6">
                     <div className="blog4-box" data-aos="zoom-in-up" data-aos-duration="900">
                         <div className="image image-anime">
-                            <img src="/assets/img/blog/blog4-img1.png" alt="" />
+                            <img src="/assets/img/blog/blog4-img1.webp" alt="" />
                         </div>
                         <div className="heading4">
                           <div className="tags">
-                            <a href="#" className="date"><img src="/assets/img/icons/date3.png" alt="" /> Feb 24, 24</a>
-                            <a href="#" className="date outhor"><img src="/assets/img/icons/blog-icon1.png" alt="" /> M.Rahman</a>
+                            <a href="#" className="date"><img src="/assets/img/icons/date3.webp" alt="" /> Feb 24, 24</a>
+                            <a href="#" className="date outhor"><img src="/assets/img/icons/blog-icon1.webp" alt="" /> M.Rahman</a>
                           </div>
                             <h3><Link to="/blog/blog-details">The Importance of Cybersecurity</Link></h3>
                             <div className="space16"></div>
@@ -37,12 +37,12 @@ const Blog4 = () => {
                 <div className="col-lg-6">
                     <div className="blog4-box" data-aos="zoom-in-up" data-aos-duration="700">
                         <div className="image image-anime">
-                            <img src="/assets/img/blog/blog4-img2.png" alt="" />
+                            <img src="/assets/img/blog/blog4-img2.webp" alt="" />
                         </div>
                         <div className="heading4">
                           <div className="tags">
-                            <a href="#" className="date"><img src="/assets/img/icons/date3.png" alt="" /> Feb 24, 24</a>
-                            <a href="#" className="date outhor"><img src="/assets/img/icons/blog-icon1.png" alt="" /> M.Rahman</a>
+                            <a href="#" className="date"><img src="/assets/img/icons/date3.webp" alt="" /> Feb 24, 24</a>
+                            <a href="#" className="date outhor"><img src="/assets/img/icons/blog-icon1.webp" alt="" /> M.Rahman</a>
                           </div>
                             <h3><Link to="/blog/blog-details">The Future of Cloud Computing</Link></h3>
                             <div className="space16"></div>

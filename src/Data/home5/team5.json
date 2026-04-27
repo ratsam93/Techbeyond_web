@@ -1,16 +1,16 @@
 [
   {
-    "img": "/assets/img/team/team6-img1.png",  
+    "img": "/assets/img/team/team6-img1.webp",  
     "title": "John Doe",
     "desc": "CEO & Founder"
   },
   {
-    "img": "/assets/img/team/team6-img2.png",  
+    "img": "/assets/img/team/team6-img2.webp",  
     "title": "Jane Smith",
     "desc": "Chef Technology Officer"
   },
   {
-    "img": "/assets/img/team/team6-img3.png",  
+    "img": "/assets/img/team/team6-img3.webp",  
     "title": "Sarah Thompson",
     "desc": "Head of Project Management"
   }

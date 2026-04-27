@@ -2,9 +2,10 @@ import { Link, useSearchParams } from "react-router-dom";
 import AppLayout from "../components/AppLayout";
 import AnimatedSection from "../components/AnimatedSection";
 import BusinessPlanSection from "../components/BusinessPlanSection";
+import SchedulerEmbed from "../components/SchedulerEmbed";
 import SEOHead from "../components/SEOHead";
 import { businessEndpoints } from "../data/endpoints.js";
-import { contactCard } from "../data/techbeyondContent.js";
+import { contactCard, siteBrand } from "../data/techbeyondContent.js";
 import { usePricingCatalog } from "../hooks/usePricingCatalog.js";
 
 const getIntentLabel = (intent) => {
@@ -16,21 +17,6 @@ const getIntentLabel = (intent) => {
 const getCalendlyUrl = (intent) => {
   if (intent === "business-plan") return businessEndpoints.booking.businessPlanUrl;
   return businessEndpoints.booking.strategyCallUrl;
-};
-
-const buildBookingEmbedUrl = (url) => {
-  if (!url) {
-    return "";
-  }
-
-  try {
-    const parsedUrl = new URL(url);
-    parsedUrl.searchParams.set("hide_gdpr_banner", "1");
-    parsedUrl.searchParams.set("primary_color", "111827");
-    return parsedUrl.toString();
-  } catch {
-    return url;
-  }
 };
 
 const getSchedulerTitle = (intent) => {
@@ -49,7 +35,7 @@ const Contact = () => {
     <AppLayout>
       <SEOHead
         title="Contact"
-        description="Share what Techbeyond should help you improve across demand generation, websites, paid media, mobile apps, automation, or business planning."
+        description="Share what Techbeyond Solution should help you improve across demand generation, websites, paid media, mobile apps, automation, or business planning."
         canonicalPath="/contact"
       />
 
@@ -57,7 +43,7 @@ const Contact = () => {
         <div className="sj-shell">
           <AnimatedSection>
             <p className="sj-kicker">Contact</p>
-            <h1 className="sj-section-title">Talk to Techbeyond about the system you want to fix, build, or launch.</h1>
+            <h1 className="sj-section-title">Talk to Techbeyond Solution about the system you want to fix, build, or launch.</h1>
             <p className="sj-copy sj-section-copy">
               The contact route now stays simple: choose the right booking flow, share your project context, and use one email address for every public-facing inquiry.
             </p>
@@ -92,6 +78,12 @@ const Contact = () => {
                       </ul>
                     </div>
                     <div className="tbx-page-box">
+                      <p className="tbx-page-kicker">WhatsApp</p>
+                      <ul>
+                        <li><a href={siteBrand.phoneHref} target="_blank" rel="noreferrer">{siteBrand.phone}</a></li>
+                      </ul>
+                    </div>
+                    <div className="tbx-page-box">
                       <p className="tbx-page-kicker">What to include</p>
                       <ul>
                         <li>Your service requirement or launch goal.</li>
@@ -107,10 +99,10 @@ const Contact = () => {
                 <AnimatedSection delay={60}>
                   <div className="tbx-page-box">
                     <p className="tbx-page-kicker">Scheduler embed</p>
-                    <iframe
+                    <SchedulerEmbed
                       title={getSchedulerTitle(intent)}
-                      src={buildBookingEmbedUrl(calendlyUrl || getCalendlyUrl(intent))}
-                      style={{ width: "100%", minHeight: "760px", border: 0, borderRadius: "1rem", background: "#fff" }}
+                      value={calendlyUrl || getCalendlyUrl(intent)}
+                      className="sj-inline-calendar-frame"
                     />
                   </div>
                 </AnimatedSection>
@@ -144,7 +136,7 @@ const Contact = () => {
                   </label>
                   <label>
                     <span>Email</span>
-                    <input type="email" placeholder="info@techbeyond.com" />
+                    <input type="email" placeholder="info@techbeyondsolution.com" />
                   </label>
                   <label>
                     <span>Company name</span>
@@ -193,7 +185,7 @@ const Contact = () => {
         <div className="sj-shell">
           <BusinessPlanSection
             eyebrow="Business Plan Requests"
-            title="Need Techbeyond to shape the business plan first?"
+            title="Need Techbeyond Solution to shape the business plan first?"
             copy="Use this route if you need the GTM structure, rollout order, commercial framing, or execution roadmap before moving into the full build."
           />
         </div>

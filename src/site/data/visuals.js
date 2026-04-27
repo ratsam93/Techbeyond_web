@@ -1,10 +1,10 @@
 const gallery = [
-  "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1600&q=80",
-  "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1600&q=80",
-  "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=1600&q=80",
-  "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1600&q=80",
-  "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&w=1600&q=80",
-  "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1600&q=80",
+  "/assets/img/others/project-hero-img.webp",
+  "/assets/img/others/project-details-hero.webp",
+  "/assets/img/others/solution-img1.webp",
+  "/assets/img/others/solution-img2.webp",
+  "/assets/img/others/solution-img3.webp",
+  "/assets/img/service/service-hero-image.webp",
 ];
 
 export const pageVisuals = {
@@ -33,10 +33,10 @@ const serviceVisuals = {
 };
 
 const industryVisuals = {
-  healthcare: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=1600&q=80",
-  "real-estate": "https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=1600&q=80",
-  "retail-ecommerce": "https://images.unsplash.com/photo-1520607162513-77705c0f0d4a?auto=format&fit=crop&w=1600&q=80",
-  "saas-technology": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1600&q=80",
+  healthcare: "/assets/img/others/industris-img1.webp",
+  "real-estate": "/assets/img/others/industris-img2.webp",
+  "retail-ecommerce": "/assets/img/others/industris-img3.webp",
+  "saas-technology": "/assets/img/others/industris-img4.webp",
 };
 
 const insightVisuals = {

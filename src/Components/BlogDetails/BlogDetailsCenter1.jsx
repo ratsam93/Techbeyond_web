@@ -10,14 +10,14 @@ const BlogDetailsCenter1 = () => {
                             <article>
                                 <div className="details-post-area">
                                     <div className="image">
-                                        <img src="/assets/img/others/project-details-img1.png" alt="" />
+                                        <img src="/assets/img/others/project-details-img1.webp" alt="" />
                                     </div>
                                     <div className="social-users">
                                         <ul>
-                                            <li><a href="#"><img src="/assets/img/icons/user-icon1.png" alt="" /> John William</a></li>
-                                            <li><a href="#"><img src="/assets/img/icons/user-icon2.png" alt="" /> Feb 25, 24</a></li>
-                                            <li><a href="#"><img src="/assets/img/icons/user-icon3.png" alt="" /> Cyber Security</a></li>
-                                            <li><a href="#"><img src="/assets/img/icons/user-icon4.png" alt="" /> 03 Comments</a></li>
+                                            <li><a href="#"><img src="/assets/img/icons/user-icon1.webp" alt="" /> John William</a></li>
+                                            <li><a href="#"><img src="/assets/img/icons/user-icon2.webp" alt="" /> Feb 25, 24</a></li>
+                                            <li><a href="#"><img src="/assets/img/icons/user-icon3.webp" alt="" /> Cyber Security</a></li>
+                                            <li><a href="#"><img src="/assets/img/icons/user-icon4.webp" alt="" /> 03 Comments</a></li>
                                         </ul>
                                     </div>
                                     <div className="space30"></div>
@@ -54,7 +54,7 @@ const BlogDetailsCenter1 = () => {
                                 <div className="details-post-area">
                                     <div className="video-area-image">
                                         <div className="image">
-                                            <img src="/assets/img/blog/blog-post-video-img.png" alt="" />
+                                            <img src="/assets/img/blog/blog-post-video-img.webp" alt="" />
                                         </div>
                                     </div>
 
@@ -105,7 +105,7 @@ const BlogDetailsCenter1 = () => {
                                             <div className="box-top-area">
                                                 <div className="heading-area">
                                                     <div className="image">
-                                                        <img src="/assets/img/blog/comment-box-image1.png" alt="" />
+                                                        <img src="/assets/img/blog/comment-box-image1.webp" alt="" />
                                                     </div>
                                                     <div className="heading">
                                                         <h5><a href="#">Mr. Ana Ritchie</a></h5>
@@ -124,7 +124,7 @@ const BlogDetailsCenter1 = () => {
                                             <div className="box-top-area">
                                                 <div className="heading-area">
                                                     <div className="image">
-                                                        <img src="/assets/img/blog/comment-box-image2.png" alt="" />
+                                                        <img src="/assets/img/blog/comment-box-image2.webp" alt="" />
                                                     </div>
                                                     <div className="heading">
                                                         <h5><a href="#">Matthew Kuhnemann</a></h5>

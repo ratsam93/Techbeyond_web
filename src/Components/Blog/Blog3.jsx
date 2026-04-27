@@ -19,8 +19,8 @@ const Blog3 = () => {
               <div className="blog3-box" data-aos="zoom-in-up" data-aos-duration="800">
                 <div className="heading3">
                   <div className="tags">
-                    <a href="#" className="date"><img src="/assets/img/icons/date3.png" alt="" /> Feb 24, 24</a>
-                    <a href="#" className="date outhor"><img src="/assets/img/icons/blog-icon1.png" alt="" /> M.Rahman</a>
+                    <a href="#" className="date"><img src="/assets/img/icons/date3.webp" alt="" /> Feb 24, 24</a>
+                    <a href="#" className="date outhor"><img src="/assets/img/icons/blog-icon1.webp" alt="" /> M.Rahman</a>
                   </div>
                 <h3><Link to="/blog/blog-details">Stay Up-to-Date With The Latest Trends and Developments in Technology</Link></h3>
                 <div className="space16"></div>
@@ -29,7 +29,7 @@ const Blog3 = () => {
                 <Link to="/blog/blog-details" className="learn">Read More <span><i className="bi bi-arrow-right"></i></span></Link>
                 </div>
                 <div className="image image-anime">
-                  <img src="/assets/img/blog/blog3-img1.png" alt="" />
+                  <img src="/assets/img/blog/blog3-img1.webp" alt="" />
                 </div>
               </div>
             </div>
@@ -39,8 +39,8 @@ const Blog3 = () => {
                 <div className="heading3">
   
                   <div className="tags">
-                    <a href="#" className="date"><img src="/assets/img/icons/date3.png" alt="" /> Feb 24, 24</a>
-                    <a href="#" className="date outhor"><img src="/assets/img/icons/blog-icon1.png" alt="" /> M.Rahman</a>
+                    <a href="#" className="date"><img src="/assets/img/icons/date3.webp" alt="" /> Feb 24, 24</a>
+                    <a href="#" className="date outhor"><img src="/assets/img/icons/blog-icon1.webp" alt="" /> M.Rahman</a>
                   </div>
   
                 <h3><Link to="/blog/blog-details">Discover How Organisations Like Yours Have Leveraged Technology</Link></h3>
@@ -50,7 +50,7 @@ const Blog3 = () => {
                 <Link to="/blog/blog-details" className="learn">Read More <span><i className="bi bi-arrow-right"></i></span></Link>
                 </div>
                 <div className="image image-anime">
-                  <img src="/assets/img/blog/blog3-img2.png" alt="" />
+                  <img src="/assets/img/blog/blog3-img2.webp" alt="" />
                 </div>
               </div>
             </div>

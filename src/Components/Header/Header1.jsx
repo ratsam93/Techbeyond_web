@@ -40,7 +40,7 @@ export default function Header1({ variant }) {
           <div className="row">
             <div className="col-lg-12">
               <div className="pera">
-                <p><img src="/assets/img/icons/header-top-span.png" alt="" /> A Professional Technology & It Solution Company Based On World</p>
+                <p><img src="/assets/img/icons/header-top-span.webp" alt="" /> A Professional Technology & It Solution Company Based On World</p>
               </div>
             </div>
           </div>
@@ -52,7 +52,7 @@ export default function Header1({ variant }) {
 
             <div className="cs_main_header_left">
               <Link className="cs_site_branding" to="/">
-                <img src="/assets/img/logo/header-logo1.png" alt="Logo" />
+                <img src="/assets/img/logo/techbeyond-full-logo.webp" alt="Logo" />
               </Link>
               </div>
 
@@ -76,7 +76,7 @@ export default function Header1({ variant }) {
             <div className="header1-buttons">
                     <div className="contact-btn">
                       <div className="icon">
-                        <img src="/assets/img/icons/header1-icon.png" alt="" />
+                        <img src="/assets/img/icons/header1-icon.webp" alt="" />
                       </div>
                       <div className="headding">
                         <p>Make a Call</p>

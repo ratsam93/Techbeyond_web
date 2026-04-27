@@ -21,7 +21,7 @@ const Service8 = () => {
               <div className="">
                 <div className="servcie2-box">
                   <div className="icon">
-                  <img src="/assets/img/icons/service2-icon3.png" alt="" />
+                  <img src="/assets/img/icons/service2-icon3.webp" alt="" />
                   </div>
                   <Link to={item.btnLink} className="arrow"><i className="bi bi-arrow-right"></i></Link>
                   <div className="heading2">

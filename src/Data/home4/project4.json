@@ -1,6 +1,6 @@
 [
   {
-    "icon": "/assets/img/others/project4-img1.png",
+    "icon": "/assets/img/others/project4-img1.webp",
     "title": "(ERP) Implementation",
     "desc": "Streamline operations and improve efficiency through <br> the implementation of a comprehensive ERP system.",   
     "btnLink": "/project/project-details",
@@ -8,7 +8,7 @@
     "addClassActive": "image-area active"
   },
   {
-    "icon": "/assets/img/others/project4-img2.png",
+    "icon": "/assets/img/others/project4-img2.webp",
     "title": "(ERP) Implementation",
     "desc": "Streamline operations and improve efficiency through the implementation of a comprehensive ERP system.",   
     "btnLink": "/project/project-details",
@@ -16,7 +16,7 @@
     "addClassActive": "image-area"
   },
   {
-    "icon": "/assets/img/others/project4-img3.png",
+    "icon": "/assets/img/others/project4-img3.webp",
     "title": "(ERP) Implementation",
     "desc": "Streamline operations and improve efficiency through the implementation of a comprehensive ERP system.",   
     "btnLink": "/project/project-details",
@@ -24,7 +24,7 @@
     "addClassActive": "image-area"    
   },
   {
-    "icon": "/assets/img/others/project4-img4.png",
+    "icon": "/assets/img/others/project4-img4.webp",
     "title": "(ERP) Implementation",
     "desc": "Streamline operations and improve efficiency through <br> the implementation of a comprehensive ERP system.",   
     "btnLink": "/project/project-details",

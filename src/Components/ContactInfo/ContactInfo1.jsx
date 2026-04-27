@@ -15,7 +15,7 @@ const ContactInfo1 = () => {
                             </div>
                             <div className="contact-box">
                                 <div className="icon">
-                                    <img src="/assets/img/icons/contact-page-icon1.png" alt="" />
+                                    <img src="/assets/img/icons/contact-page-icon1.webp" alt="" />
                                 </div>
                                 <div className="heading">
                                     <h5>Contact Us</h5>
@@ -25,17 +25,17 @@ const ContactInfo1 = () => {
 
                             <div className="contact-box">
                                 <div className="icon">
-                                    <img src="/assets/img/icons/contact-page-icon2.png" alt="" />
+                                    <img src="/assets/img/icons/contact-page-icon2.webp" alt="" />
                                 </div>
                                 <div className="heading">
                                     <h5>Send Us a Mail</h5>
-                                        <a href="mailto:info@techbeyond.com" className="text">info@techbeyond.com</a>
+                <a href="mailto:info@techbeyondsolution.com" className="text">info@techbeyondsolution.com</a>
                                 </div>
                             </div>
 
                             <div className="contact-box">
                                 <div className="icon">
-                                    <img src="/assets/img/icons/contact-page-icon3.png" alt="" />
+                                    <img src="/assets/img/icons/contact-page-icon3.webp" alt="" />
                                 </div>
                                 <div className="heading">
                                     <h5>Office Location</h5>

@@ -32,7 +32,7 @@ const ServiceDetailsRight2 = () => {
                             <article>
                                 <div className="details-post-area">
                                     <div className="image">
-                                        <img src="/assets/img/service/service-details-img.png" alt="" />
+                                        <img src="/assets/img/service/service-details-img.webp" alt="" />
                                     </div>
                                     <div className="space30"></div>
                                     <div className="heading1">
@@ -104,7 +104,7 @@ const ServiceDetailsRight2 = () => {
                                 <div className="">
                                   <div className="servcie2-box servcie2-box-2">
                                     <div className="icon">
-                                      <img src="/assets/img/icons/service-page-icon1.png" alt="" />
+                                      <img src="/assets/img/icons/service-page-icon1.webp" alt="" />
                                     </div>
                                     <Link to="/service/service-details" className="arrow"><i className="bi bi-arrow-right"></i></Link>
                                     <div className="heading1">
@@ -120,7 +120,7 @@ const ServiceDetailsRight2 = () => {
                                 <div className="">
                                   <div className="servcie2-box servcie2-box-2">
                                     <div className="icon">
-                                      <img src="/assets/img/icons/service-page-icon2.png" alt="" />
+                                      <img src="/assets/img/icons/service-page-icon2.webp" alt="" />
                                     </div>
                                     <Link to="/service/service-details" className="arrow"><i className="bi bi-arrow-right"></i></Link>
                                     <div className="heading1">
@@ -207,8 +207,8 @@ const ServiceDetailsRight2 = () => {
                           <h3>Download Brochure</h3>
                           <p>With a focus on excellence  &  commitment to exceeding expectations, our experienced team is here to empower Solution.</p>
                           <div className="download-btns">
-                              <a className="daownload1" href="#">PDF Download <img src="/assets/img/icons/download-img.png" alt="" /></a>
-                              <a className="daownload2" href="#">DOC Download <img src="/assets/img/icons/download-img.png" alt="" /></a>
+                              <a className="daownload1" href="#">PDF Download <img src="/assets/img/icons/download-img.webp" alt="" /></a>
+                              <a className="daownload2" href="#">DOC Download <img src="/assets/img/icons/download-img.webp" alt="" /></a>
                           </div>
                       </div>
 

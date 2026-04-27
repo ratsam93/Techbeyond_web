@@ -26,7 +26,7 @@ const About6 = ({image1,image2,image3,experienceNum,experienceTitle,subTitle,tit
 
               <div className="col-lg-6">
                 <div className="heading1">
-                  <span className="span" data-aos="zoom-in-left" data-aos-duration="700"><img src="/assets/img/icons/span1.png" alt="" /> {subTitle}</span>
+                  <span className="span" data-aos="zoom-in-left" data-aos-duration="700"><img src="/assets/img/icons/span1.webp" alt="" /> {subTitle}</span>
                   <h2 className="title tg-element-title">{title}</h2>
                   <div className="space16"></div>
                   <p data-aos="fade-up-left" data-aos-duration="700">{content}</p>

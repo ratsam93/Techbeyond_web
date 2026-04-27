@@ -8,7 +8,7 @@ const About4 = ({image1,image2,image3,shape1,subTitle,Title,content,expNum,expCo
                     <div className="col-lg-6">
                         <div className="images">
                             <div className="img1 shape-animaiton4">
-                                <img src={"/assets/img/bg/about3-bg.png"} alt="" />
+                                <img src={"/assets/img/bg/about3-bg.webp"} alt="" />
                             </div>
                             <div className="img2" data-aos="zoom-out" data-aos-duration="800">
                                 <img src={image1} alt="" />

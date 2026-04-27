@@ -228,7 +228,7 @@ html {
 }
 
 .body2 {
-  background-image: url(../assets/img/bg/body2.png);
+  background-image: url(../assets/img/bg/body2.webp);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -236,7 +236,7 @@ html {
 }
 
 .comon-body {
-  background-image: url(../assets/img/bg/comon-bg.png);
+  background-image: url(../assets/img/bg/comon-bg.webp);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -3531,7 +3531,7 @@ a.header__search.header-search-btn p {
 .theme-btn1::after {
   content: "";
   position: absolute;
-  background-image: url(../assets/img/icons/button-img.png);
+  background-image: url(../assets/img/icons/button-img.webp);
   height: 100%;
   width: 0%;
   top: 0;
@@ -3581,7 +3581,7 @@ a.header__search.header-search-btn p {
 .cta-btn1::after {
   content: "";
   position: absolute;
-  background-image: url(../assets/img/icons/button-img.png);
+  background-image: url(../assets/img/icons/button-img.webp);
   height: 100%;
   width: 0%;
   top: 0;
@@ -3636,7 +3636,7 @@ a.header__search.header-search-btn p {
 .cta-btn2::after {
   content: "";
   position: absolute;
-  background-image: url(../assets/img/icons/button-img.png);
+  background-image: url(../assets/img/icons/button-img.webp);
   height: 100%;
   width: 0%;
   top: 0;
@@ -6198,21 +6198,21 @@ a.header__search.header-search-btn p {
   }
 }
 .cs_case_study_thumb {
-  background-image: url(../assets/img/about/about3-image1.png);
+  background-image: url(../assets/img/about/about3-image1.webp);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .cs_case_study_thumb.cs_case_study_thumb2 {
-  background-image: url(../assets/img/about/about3-image2.png);
+  background-image: url(../assets/img/about/about3-image2.webp);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .cs_case_study_thumb.cs_case_study_thumb3 {
-  background-image: url(../assets/img/about/about3-image3.png);
+  background-image: url(../assets/img/about/about3-image3.webp);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -6362,19 +6362,19 @@ a.header__search.header-search-btn p {
   }
 }
 .about9 .cs_case_study_thumb {
-  background-image: url(../assets/img/about/about9-img1.png);
+  background-image: url(../assets/img/about/about9-img1.webp);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
 .about9 .cs_case_study_thumb.cs_case_study_thumb2 {
-  background-image: url(../assets/img/about/about9-img2.png);
+  background-image: url(../assets/img/about/about9-img2.webp);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
 .about9 .cs_case_study_thumb.cs_case_study_thumb3 {
-  background-image: url(../assets/img/about/about9-img3.png);
+  background-image: url(../assets/img/about/about9-img3.webp);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -7382,7 +7382,7 @@ a.header__search.header-search-btn p {
   right: 0;
   height: 100%;
   width: 40%;
-  background-image: url(../assets/img/service/service10-bg.png);
+  background-image: url(../assets/img/service/service10-bg.webp);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -8226,7 +8226,7 @@ a.header__search.header-search-btn p {
   right: 0;
   height: 100%;
   width: 50%;
-  background-image: url(../assets/img/others/cta4-image.png);
+  background-image: url(../assets/img/others/cta4-image.webp);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -8691,7 +8691,7 @@ a.header__search.header-search-btn p {
   right: 0;
   height: 100%;
   width: 50%;
-  background-image: url(../assets/img/others/cta4-image.png);
+  background-image: url(../assets/img/others/cta4-image.webp);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -11100,7 +11100,7 @@ a.header__search.header-search-btn p {
   left: 0;
   height: 100%;
   width: 100%;
-  background-image: url(../assets/img/bg/hero2-main-bg2.png);
+  background-image: url(../assets/img/bg/hero2-main-bg2.webp);
   z-index: -1;
   background-position: center center;
   background-repeat: no-repeat;
@@ -11386,7 +11386,7 @@ a.header__search.header-search-btn p {
   right: 0;
   height: 100%;
   width: 50%;
-  background-image: url(../assets/img/hero/hero4-main-image.png);
+  background-image: url(../assets/img/hero/hero4-main-image.webp);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -11408,7 +11408,7 @@ a.header__search.header-search-btn p {
   left: 0;
   height: 100%;
   width: 50%;
-  background-image: url(../assets/img/bg/hero4-main-shape.png);
+  background-image: url(../assets/img/bg/hero4-main-shape.webp);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center center;
@@ -11590,7 +11590,7 @@ a.header__search.header-search-btn p {
   left: 0;
   height: 100%;
   width: 100%;
-  background-image: url(../assets/img/bg/hero2-main-bg.png);
+  background-image: url(../assets/img/bg/hero2-main-bg.webp);
   z-index: -1;
   background-position: center center;
   background-repeat: no-repeat;
@@ -11670,7 +11670,7 @@ a.header__search.header-search-btn p {
   left: 0;
   height: 100%;
   width: 100%;
-  background-image: url(../assets/img/bg/hero2-main-bg2.png) !important;
+  background-image: url(../assets/img/bg/hero2-main-bg2.webp) !important;
   z-index: -1;
   background-position: center center;
   background-repeat: no-repeat;
@@ -12805,7 +12805,7 @@ a.header__search.header-search-btn p {
   left: 0;
   height: 200%;
   width: 100%;
-  background-image: url(../assets/img/bg/hero2-main-bg2.png);
+  background-image: url(../assets/img/bg/hero2-main-bg2.webp);
   z-index: -1;
   background-position: center center;
   background-repeat: no-repeat;
@@ -16752,7 +16752,7 @@ a.header__search.header-search-btn p {
   top: 200px;
   height: 70%;
   width: 100%;
-  background-image: url(../assets/img/bg/bottom-shape2.png);
+  background-image: url(../assets/img/bg/bottom-shape2.webp);
   background-position: center center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -23860,7 +23860,7 @@ li.has-dropdown1 span {
   display: block;
 }
 .footer_3{
-  background-image: url(../assets/img/bg/footer-bg3.png); 
+  background-image: url(../assets/img/bg/footer-bg3.webp); 
   background-position: center center; 
   background-size: cover; 
   background-repeat: no-repeat;  
@@ -23906,7 +23906,7 @@ padding-right: 20px;
   color: var(--ztc-text-text-1);
 }
 .hero7{
-  background-image: url(../assets/img/bg/hero-bg7.jpg);
+  background-image: url(../assets/img/bg/hero-bg7.webp);
 }
 .header_style_5 {
   z-index: 99;

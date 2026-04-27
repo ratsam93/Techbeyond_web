@@ -107,7 +107,7 @@ const ServiceCategory = () => {
   return (
     <AppLayout>
       <SEOHead
-        title={`Techbeyond | ${category?.title || "Service Category"}`}
+        title={`Techbeyond Solution | ${category?.title || "Service Category"}`}
         description={category?.summary || "Techbeyond services"}
         canonicalPath={canonicalPath}
         schema={schema}

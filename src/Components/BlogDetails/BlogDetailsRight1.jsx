@@ -11,14 +11,14 @@ const BlogDetailsRight1 = () => {
                             <article>
                                 <div className="details-post-area">
                                     <div className="image">
-                                        <img src="/assets/img/others/project-details-img1.png" alt="" />
+                                        <img src="/assets/img/others/project-details-img1.webp" alt="" />
                                     </div>
                                     <div className="social-users">
                                         <ul>
-                                            <li><a href="#"><img src="/assets/img/icons/user-icon1.png" alt="" /> John William</a></li>
-                                            <li><a href="#"><img src="/assets/img/icons/user-icon2.png" alt="" /> Feb 25, 24</a></li>
-                                            <li><a href="#"><img src="/assets/img/icons/user-icon3.png" alt="" /> Cyber Security</a></li>
-                                            <li><a href="#"><img src="/assets/img/icons/user-icon4.png" alt="" /> 03 Comments</a></li>
+                                            <li><a href="#"><img src="/assets/img/icons/user-icon1.webp" alt="" /> John William</a></li>
+                                            <li><a href="#"><img src="/assets/img/icons/user-icon2.webp" alt="" /> Feb 25, 24</a></li>
+                                            <li><a href="#"><img src="/assets/img/icons/user-icon3.webp" alt="" /> Cyber Security</a></li>
+                                            <li><a href="#"><img src="/assets/img/icons/user-icon4.webp" alt="" /> 03 Comments</a></li>
                                         </ul>
                                     </div>
                                     <div className="space30"></div>
@@ -55,7 +55,7 @@ const BlogDetailsRight1 = () => {
                                 <div className="details-post-area">
                                     <div className="video-area-image">
                                         <div className="image">
-                                            <img src="/assets/img/blog/blog-post-video-img.png" alt="" />
+                                            <img src="/assets/img/blog/blog-post-video-img.webp" alt="" />
                                         </div>
                                     </div>
 
@@ -106,7 +106,7 @@ const BlogDetailsRight1 = () => {
                                             <div className="box-top-area">
                                                 <div className="heading-area">
                                                     <div className="image">
-                                                        <img src="/assets/img/blog/comment-box-image1.png" alt="" />
+                                                        <img src="/assets/img/blog/comment-box-image1.webp" alt="" />
                                                     </div>
                                                     <div className="heading">
                                                         <h5><a href="#">Mr. Ana Ritchie</a></h5>
@@ -125,7 +125,7 @@ const BlogDetailsRight1 = () => {
                                             <div className="box-top-area">
                                                 <div className="heading-area">
                                                     <div className="image">
-                                                        <img src="/assets/img/blog/comment-box-image2.png" alt="" />
+                                                        <img src="/assets/img/blog/comment-box-image2.webp" alt="" />
                                                     </div>
                                                     <div className="heading">
                                                         <h5><a href="#">Matthew Kuhnemann</a></h5>
@@ -225,11 +225,11 @@ const BlogDetailsRight1 = () => {
                               <div className="sidebar-blogs">
                                   <div className="">
                                       <div className="image">
-                                          <img src="/assets/img/blog/blog-details-sidebar1.png" alt="" />
+                                          <img src="/assets/img/blog/blog-details-sidebar1.webp" alt="" />
                                       </div>
                                   </div>
                                   <div className="heading">
-                                      <a href="#" className="date"><img src="/assets/img/icons/date.png" alt="" /> 19/02/2024</a>
+                                      <a href="#" className="date"><img src="/assets/img/icons/date.webp" alt="" /> 19/02/2024</a>
                                       <h5><Link to="/blog/blog-details">We take a deep dive into the future of cloud computing </Link></h5>
                                   </div>
                               </div>
@@ -237,11 +237,11 @@ const BlogDetailsRight1 = () => {
                               <div className="sidebar-blogs">
                                   <div className="">
                                       <div className="image">
-                                          <img src="/assets/img/blog/blog-details-sidebar2.png" alt="" />
+                                          <img src="/assets/img/blog/blog-details-sidebar2.webp" alt="" />
                                       </div>
                                   </div>
                                   <div className="heading">
-                                      <a href="#" className="date"><img src="/assets/img/icons/date.png" alt="" /> 19/02/2024</a>
+                                      <a href="#" className="date"><img src="/assets/img/icons/date.webp" alt="" /> 19/02/2024</a>
                                       <h5><Link to="/blog/blog-details">Our team of experts will provide in-depth analysis </Link></h5>
                                   </div>
                               </div>
@@ -249,11 +249,11 @@ const BlogDetailsRight1 = () => {
                               <div className="sidebar-blogs">
                                   <div className="">
                                       <div className="image">
-                                          <img src="/assets/img/blog/blog-details-sidebar3.png" alt="" />
+                                          <img src="/assets/img/blog/blog-details-sidebar3.webp" alt="" />
                                       </div>
                                   </div>
                                   <div className="heading">
-                                      <a href="#" className="date"><img src="/assets/img/icons/date.png" alt="" /> 19/02/2024</a>
+                                      <a href="#" className="date"><img src="/assets/img/icons/date.webp" alt="" /> 19/02/2024</a>
                                       <h5><Link to="/blog/blog-details">Our case studies and success stories highlight real-world </Link></h5>
                                   </div>
                               </div>
@@ -261,11 +261,11 @@ const BlogDetailsRight1 = () => {
                               <div className="sidebar-blogs">
                                   <div className="">
                                       <div className="image">
-                                          <img src="/assets/img/blog/blog-details-sidebar3.png" alt="" />
+                                          <img src="/assets/img/blog/blog-details-sidebar3.webp" alt="" />
                                       </div>
                                   </div>
                                   <div className="heading">
-                                      <a href="#" className="date"><img src="/assets/img/icons/date.png" alt="" /> 19/02/2024</a>
+                                      <a href="#" className="date"><img src="/assets/img/icons/date.webp" alt="" /> 19/02/2024</a>
                                       <h5><Link to="/blog/blog-details">One of the primary objectives of cybersecurity is to protect </Link></h5>
                                   </div>
                               </div>
@@ -291,8 +291,8 @@ const BlogDetailsRight1 = () => {
                           <h3>Download Brochure</h3>
                           <p>With a focus on excellence  &  commitment to exceeding expectations, our experienced team is here to empower Solution.</p>
                           <div className="download-btns">
-                              <a className="daownload1" href="#">PDF Download <img src="/assets/img/icons/download-img.png" alt="" /></a>
-                              <a className="daownload2" href="#">DOC Download <img src="/assets/img/icons/download-img.png" alt="" /></a>
+                              <a className="daownload1" href="#">PDF Download <img src="/assets/img/icons/download-img.webp" alt="" /></a>
+                              <a className="daownload2" href="#">DOC Download <img src="/assets/img/icons/download-img.webp" alt="" /></a>
                           </div>
                       </div>
 

@@ -55,7 +55,7 @@ const Testimonial2 = () => {
                     {data.map((item, i) => (
                         <div key={i} className="single-slider">
                         <div className="icon">
-                            <img src="/assets/img/icons/tes2-icon.png" alt="" />
+                            <img src="/assets/img/icons/tes2-icon.webp" alt="" />
                         </div>
                         <p className="pera">{item.desc}</p>
 

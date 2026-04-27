@@ -8,7 +8,7 @@ const HowWork4 = () => {
         Content:'Dive into our portfolio to see how we have helped businesses like yours overcome challenges, achieve their goals, and thrive in todays digital landscape  robust cybersecurity solutions.',
         btnName:'View Our Work',
         btnUrl:'/about',
-        img1:'/assets/img/work/work7-image.png',
+        img1:'/assets/img/work/work7-image.webp',
       }
 
     return (

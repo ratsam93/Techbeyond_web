@@ -19,7 +19,7 @@ const HowWork2 = () => {
               </div>
               <div className="col-lg-8">
                 <div className="big-image image-anime">
-                  <img src="/assets/img/work/work3-img.png" alt="" />
+                  <img src="/assets/img/work/work3-img.webp" alt="" />
                 </div>
               </div>
             </div>

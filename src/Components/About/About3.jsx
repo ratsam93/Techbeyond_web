@@ -41,13 +41,13 @@ const About3 = () => {
                   <div className="cs_height_118 cs_height_lg_70"></div>
                   <div className="cs_case_study_1_list">
                     <div className="cs_case_study cs_style_1 cs_hover_active">
-                      <div className="cs_case_study_thumb cs_bg_filed" data-src="/assets/img/about/about1-img1.png"></div>
+                      <div className="cs_case_study_thumb cs_bg_filed" data-src="/assets/img/about/about1-img1.webp"></div>
                     </div>
                     <div className="cs_case_study cs_style_1 cs_hover_active">
-                      <div className="cs_case_study_thumb cs_case_study_thumb2 cs_bg_filed" data-src="/assets/img/about/about1-img1.png"></div>
+                      <div className="cs_case_study_thumb cs_case_study_thumb2 cs_bg_filed" data-src="/assets/img/about/about1-img1.webp"></div>
                     </div>
                     <div className="cs_case_study cs_style_1 cs_hover_active">
-                      <div className="cs_case_study_thumb cs_case_study_thumb3 cs_bg_filed" data-src="/assets/img/about/about1-img1.png"></div>
+                      <div className="cs_case_study_thumb cs_case_study_thumb3 cs_bg_filed" data-src="/assets/img/about/about1-img1.webp"></div>
 
                     </div>
                   </div>

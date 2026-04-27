@@ -66,7 +66,7 @@ const ProjectDetailsLeft1 = () => {
                             <article>
                                 <div className="details-post-area">
                                     <div className="image">
-                                        <img src="/assets/img/others/project-details-img1.png" alt="" />
+                                        <img src="/assets/img/others/project-details-img1.webp" alt="" />
                                     </div>
                                     <div className="space30"></div>
                                     <div className="heading1">

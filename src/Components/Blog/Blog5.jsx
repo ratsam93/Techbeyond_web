@@ -22,7 +22,7 @@ const Blog5 = () => {
               <div className="col-lg-4 col-md-6" data-aos="zoom-in-up" data-aos-duration="700">
                 <div className="blog-box">
                   <div className="image image-anime">
-                    <img src="/assets/img/blog/blog6-img1.png" alt="" />
+                    <img src="/assets/img/blog/blog6-img1.webp" alt="" />
                   </div>
                   <div className="tags-area">
                     <a href="#" className="tag"><img src="/assets/img/icons/tag6.svg" alt="" /> The IT Corner</a>
@@ -39,7 +39,7 @@ const Blog5 = () => {
               <div className="col-lg-4 col-md-6" data-aos="zoom-in-up" data-aos-duration="900">
                 <div className="blog-box">
                   <div className="image image-anime">
-                    <img src="/assets/img/blog/blog6-img2.png" alt="" />
+                    <img src="/assets/img/blog/blog6-img2.webp" alt="" />
                   </div>
                   <div className="tags-area">
                     <a href="#" className="tag"><img src="/assets/img/icons/tag6.svg" alt="" /> The IT Corner</a>
@@ -56,7 +56,7 @@ const Blog5 = () => {
               <div className="col-lg-4 col-md-6" data-aos="zoom-in-up" data-aos-duration="1100">
                 <div className="blog-box">
                   <div className="image image-anime">
-                    <img src="/assets/img/blog/blog6-img3.png" alt="" />
+                    <img src="/assets/img/blog/blog6-img3.webp" alt="" />
                   </div>
                   <div className="tags-area">
                     <a href="#" className="tag"><img src="/assets/img/icons/tag6.svg" alt="" /> The IT Corner</a>

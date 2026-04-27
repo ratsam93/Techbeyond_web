@@ -44,11 +44,11 @@
  */
 
 export const siteBrand = {
-  name: "Techbeyond",
+  name: "Techbeyond Solution",
   tagline: "LinkedIn-led growth and digital systems for modern businesses",
-  url: "https://techbeyond.in",
+  url: "https://techbeyondsolution.com",
   description:
-    "Techbeyond helps founders and businesses generate pipeline through LinkedIn, SEO, GEO, web development, paid media, automation, and creative systems.",
+    "Techbeyond Solution helps founders and businesses generate pipeline through LinkedIn, SEO, GEO, web development, paid media, automation, and creative systems.",
   social: {
     linkedin: "https://linkedin.com/",
     instagram: "https://www.instagram.com/Techbeyond.io/",
@@ -1207,14 +1207,14 @@ export const seoPages = [
   {
     key: "home",
     path: "/",
-    title: "Techbeyond | LinkedIn-Led Growth and Digital Systems",
+    title: "Techbeyond Solution | LinkedIn-Led Growth and Digital Systems",
     description: siteBrand.description,
     canonical: `${siteBrand.url}/`,
   },
   {
     key: "linkedin-services",
     path: "/linkedin-services",
-    title: "LinkedIn Services | Techbeyond",
+    title: "LinkedIn Services | Techbeyond Solution",
     description:
       "LinkedIn profile optimization, content strategy, outreach systems, and lead generation for founders and B2B teams.",
     canonical: `${siteBrand.url}/linkedin-services`,
@@ -1222,7 +1222,7 @@ export const seoPages = [
   {
     key: "services",
     path: "/services",
-    title: "Services | Techbeyond",
+    title: "Services | Techbeyond Solution",
     description:
       "Explore services across LinkedIn, web development, SEO/GEO, paid ads, branding, automation, and apps.",
     canonical: `${siteBrand.url}/services`,
@@ -1230,7 +1230,7 @@ export const seoPages = [
   {
     key: "case-studies",
     path: "/case-studies",
-    title: "Case Studies | Techbeyond",
+    title: "Case Studies | Techbeyond Solution",
     description:
       "Selected growth stories showing pipeline, conversion, and execution outcomes.",
     canonical: `${siteBrand.url}/case-studies`,
@@ -1238,7 +1238,7 @@ export const seoPages = [
   {
     key: "insights",
     path: "/insights",
-    title: "Insights | Techbeyond",
+    title: "Insights | Techbeyond Solution",
     description:
       "Insights on LinkedIn growth, SEO/GEO, paid media, conversion, and automation systems.",
     canonical: `${siteBrand.url}/insights`,

@@ -11,12 +11,12 @@ const Home3 = () => {
     return (
         <div>
             <HeroBanner3
-                bgImg="/assets/img/bg/hero3-bg.png"
+                bgImg="/assets/img/bg/hero3-bg.webp"
                 title="Drive Success With Tailored IT Solutions For Your <span class='span'>Business</span>"
                 conetnt="Welcome to TechXen, where we specialize in delivering tailored technology and IT solutions designed <br/> to propel your business forward. From streamlining operations to boosting productivity "
-                mainImage="/assets/img/hero/hero3-main-img.png"
-                shape1="/assets/img/shapes/hero3-circle-shape.png"
-                shape2="/assets/img/shapes/image-shape3.png"
+                mainImage="/assets/img/hero/hero3-main-img.webp"
+                shape1="/assets/img/shapes/hero3-circle-shape.webp"
+                shape2="/assets/img/shapes/image-shape3.webp"
                 footerTitle="It Consulting & Support"
                 footerContent="Navigate the complexities of the <br> digital landscape with confidence"
             ></HeroBanner3>

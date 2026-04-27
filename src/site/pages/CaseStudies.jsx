@@ -7,8 +7,8 @@ import { projects } from "../data/techbeyondContent.js";
 const CaseStudies = () => (
   <AppLayout>
     <SEOHead
-      title="Techbeyond | Case Studies"
-      description="Proof-led Techbeyond case studies showing traffic, lead quality, websites, automation, and growth execution."
+      title="Techbeyond Solution | Case Studies"
+      description="Proof-led Techbeyond Solution case studies showing traffic, lead quality, websites, automation, and growth execution."
       canonicalPath="/projects"
     />
 

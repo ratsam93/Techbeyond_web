@@ -39,7 +39,7 @@ export default function HeaderStyle3({ variant }) {
           <div className="cs_main_header_in">
             <div className="cs_main_header_left">
               <Link to="/" className="cs_site_branding site_logo_2">
-                <img src="/assets/img/logo/header3-logo.png" alt="Logo" />
+                <img src="/assets/img/logo/techbeyond-full-logo.webp" alt="Logo" />
               </Link>
               </div>
               <div className="cs_main_header_center">

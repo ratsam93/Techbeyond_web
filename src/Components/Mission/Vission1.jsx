@@ -10,21 +10,21 @@ const Vission1 = () => {
                 <div className="row">
                   <div className="col-lg-12">
                     <div className="image">
-                      <img src="/assets/img/about/visiton-img1.png" alt="" />
+                      <img src="/assets/img/about/visiton-img1.webp" alt="" />
                     </div>
                   </div>
 
                   <div className="col-lg-6">
                     <div className="space30"></div>
                     <div className="image">
-                      <img src="/assets/img/about/visiton-img2.png" alt="" />
+                      <img src="/assets/img/about/visiton-img2.webp" alt="" />
                     </div>
                   </div>
 
                   <div className="col-lg-6">
                     <div className="space30"></div>
                     <div className="image">
-                      <img src="/assets/img/about/visiton-img3.png" alt="" />
+                      <img src="/assets/img/about/visiton-img3.webp" alt="" />
                     </div>
                   </div>
 
@@ -33,7 +33,7 @@ const Vission1 = () => {
             </div>
             <div className="col-lg-6">
               <div className="heading1">
-                <span className="span"><img src="/assets/img/icons/span1.png" alt="" /> Our Vision</span>
+                <span className="span"><img src="/assets/img/icons/span1.webp" alt="" /> Our Vision</span>
                 <h2>Driving Innovation: Our Vision at TechXen</h2>
                 <div className="space16"></div>
                 <p>At TechXen, our vision is to be the leading force driving digital transformation and innovation worldwide. We envision a future where businesses of all sizes have the tools and expertise they need to thrive in an increasingly digital world.</p>
@@ -41,7 +41,7 @@ const Vission1 = () => {
                 <div className="item-box">
                   <div className="icon">
                     <div className="">
-                      <img src="/assets/img/icons/about-solution-iocn1.png" alt="" />
+                      <img src="/assets/img/icons/about-solution-iocn1.webp" alt="" />
                     </div>
                   </div>
                   <div className="">
@@ -54,7 +54,7 @@ const Vission1 = () => {
                 <div className="item-box">
                   <div className="icon">
                     <div className="">
-                      <img src="/assets/img/icons/about-solution-iocn2.png" alt="" />
+                      <img src="/assets/img/icons/about-solution-iocn2.webp" alt="" />
                     </div>
                   </div>
                   <div className="">

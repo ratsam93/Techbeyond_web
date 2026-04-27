@@ -7,7 +7,7 @@ const HeroBanner2 = ({subTitle,title,featureList,image1,image2,image3}) => {
             <div className="row">
               <div className="col-lg-6">
                 <div className="main-heading">
-                    <span className="span" data-aos="zoom-in-right" data-aos-duration="700"><img src="/assets/img/icons/span2.png" alt="" /> {subTitle}</span>
+                    <span className="span" data-aos="zoom-in-right" data-aos-duration="700"><img src="/assets/img/icons/span2.webp" alt="" /> {subTitle}</span>
                     <h1 className="title tg-element-title">{title}</h1>
                 </div>
 
@@ -27,7 +27,7 @@ const HeroBanner2 = ({subTitle,title,featureList,image1,image2,image3}) => {
                                 <img src={image1} alt="" />
                             </div>
                             <div className="shape2">
-                                <Link to="/service"><img src="/assets/img/shapes/hero2-shape2.png" alt="" /></Link>
+                                <Link to="/service"><img src="/assets/img/shapes/hero2-shape2.webp" alt="" /></Link>
                             </div>
                         </div>
                     </div>

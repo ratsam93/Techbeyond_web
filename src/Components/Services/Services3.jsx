@@ -21,7 +21,7 @@ const Services3 = () => {
                   <div className="service3-box">
                     <div className="">
                       <div className="icon">
-                        <img src="/assets/img/icons/service3-iocn1.png" alt="" />
+                        <img src="/assets/img/icons/service3-iocn1.webp" alt="" />
                       </div>
                     </div>
                     <div className="heading3">
@@ -36,7 +36,7 @@ const Services3 = () => {
                   <div className="service3-box">
                     <div className="">
                       <div className="icon">
-                        <img src="/assets/img/icons/service3-iocn2.png" alt="" />
+                        <img src="/assets/img/icons/service3-iocn2.webp" alt="" />
                       </div>
                     </div>
                     <div className="heading3">
@@ -51,7 +51,7 @@ const Services3 = () => {
                   <div className="service3-box">
                     <div className="">
                       <div className="icon">
-                        <img src="/assets/img/icons/service3-iocn3.png" alt="" />
+                        <img src="/assets/img/icons/service3-iocn3.webp" alt="" />
                       </div>
                     </div>
                     <div className="heading3">
@@ -66,7 +66,7 @@ const Services3 = () => {
 
               <div className="col-lg-4">
                 <div className="main-image image-anime">
-                  <img src="/assets/img/service/service3-img.png" alt="" />
+                  <img src="/assets/img/service/service3-img.webp" alt="" />
                 </div>
               </div>
 
@@ -75,7 +75,7 @@ const Services3 = () => {
                   <div className="service3-box">
                     <div className="">
                       <div className="icon">
-                        <img src="/assets/img/icons/service3-iocn4.png" alt="" />
+                        <img src="/assets/img/icons/service3-iocn4.webp" alt="" />
                       </div>
                     </div>
                     <div className="heading3">
@@ -90,7 +90,7 @@ const Services3 = () => {
                   <div className="service3-box">
                     <div className="">
                       <div className="icon">
-                        <img src="/assets/img/icons/service3-iocn5.png" alt="" />
+                        <img src="/assets/img/icons/service3-iocn5.webp" alt="" />
                       </div>
                     </div>
                     <div className="heading3">
@@ -105,7 +105,7 @@ const Services3 = () => {
                   <div className="service3-box">
                     <div className="">
                       <div className="icon">
-                        <img src="/assets/img/icons/service3-iocn6.png" alt="" />
+                        <img src="/assets/img/icons/service3-iocn6.webp" alt="" />
                       </div>
                     </div>
                     <div className="heading3">

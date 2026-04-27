@@ -137,21 +137,25 @@ const InsightPost = () => {
       <section className="sj-section">
         <div className="sj-shell">
           <AnimatedSection>
-            <p className="sj-kicker">More Insights</p>
-            <h2 className="sj-section-title">Keep reading</h2>
+            <p className="sj-kicker">Read these next</p>
+            <h2 className="sj-section-title">Related blog posts</h2>
           </AnimatedSection>
 
           <div className="sj-blog-grid">
             {relatedPosts.map((item, index) => (
               <AnimatedSection key={item.slug} delay={index * 70}>
                 <article className="sj-blog-card">
-                  <img src={item.image} alt={item.title} className="sj-blog-image" />
+                  <Link to={`/blog/${item.slug}`} className="sj-blog-image-link" aria-label={`Read ${item.title}`}>
+                    <img src={item.image} alt={item.title} className="sj-blog-image" />
+                  </Link>
                   <div className="sj-blog-body">
                     <div className="sj-meta-row">
                       <span>{item.category}</span>
                       <span>{item.primaryKeyword}</span>
                     </div>
-                    <h3>{item.title}</h3>
+                    <h3>
+                      <Link to={`/blog/${item.slug}`}>{item.title}</Link>
+                    </h3>
                     <p className="sj-copy sj-copy-tight">{item.excerpt}</p>
                     <Link to={`/blog/${item.slug}`} className="sj-inline-link">
                       Read More

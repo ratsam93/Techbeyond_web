@@ -21,8 +21,8 @@ const Cta3 = () => {
                         </div>
                     </div>
 
-                    <img className="shape1 shape-animaiton3" src="/assets/img/shapes/cta4-shape1.png" alt="" />
-                    <img className="shape2 shape-animaiton3" src="/assets/img/shapes/cta4-shape2.png" alt="" />
+                    <img className="shape1 shape-animaiton3" src="/assets/img/shapes/cta4-shape1.webp" alt="" />
+                    <img className="shape2 shape-animaiton3" src="/assets/img/shapes/cta4-shape2.webp" alt="" />
 
                 </div>
             </div>

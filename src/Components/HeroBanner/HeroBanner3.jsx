@@ -16,11 +16,11 @@ const HeroBanner3 = ({bgImg,title,conetnt,mainImage,shape1,shape2,footerTitle,fo
             <div className="row">
               <div className="col-lg-9 m-auto text-center">
                 <div className="main-heading _relative">
-                    <h1 className="title tg-element-title">{parse(title)}<span><img src="/assets/img/icons/main-heading-span3.png" alt="" /></span> </h1>
+                    <h1 className="title tg-element-title">{parse(title)}<span><img src="/assets/img/icons/main-heading-span3.webp" alt="" /></span> </h1>
                     <div className="space16"></div>
                     <p>{parse(conetnt)}</p>
 
-                    <img className="arrow-shape" src="/assets/img/shapes/hero3-arrow-shape.png" alt="" />
+                    <img className="arrow-shape" src="/assets/img/shapes/hero3-arrow-shape.webp" alt="" />
                     <div className="space50"></div>
                     <div className="hero3-main-images _relative"> 
                         <div className="main-image">
@@ -28,7 +28,7 @@ const HeroBanner3 = ({bgImg,title,conetnt,mainImage,shape1,shape2,footerTitle,fo
                         </div>
                             <div className="circle-shape">
                                 <img className="shape1 shape-animaiton4" src={shape1} alt="" />
-                                <a href="#"><img className="shape2" src="/assets/img/shapes/hero2-shape2.png" alt="" /></a>
+                                <a href="#"><img className="shape2" src="/assets/img/shapes/hero2-shape2.webp" alt="" /></a>
                             </div>
                             <div className="image-shape shape-animaiton3">
                                 <img src={shape2} alt="" />

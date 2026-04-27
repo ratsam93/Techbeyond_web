@@ -16,12 +16,12 @@ const Blog7 = () => {
             <div className="col-lg-6">
               <div className="blog2-box">
                 <div className="image">
-                  <img src="/assets/img/blog/blog2-img2.png" alt="" />
+                  <img src="/assets/img/blog/blog2-img2.webp" alt="" />
                 </div>
                 <div className="heading1">
                   <div className="tags">
-                    <a href="#" className="date"><img src="/assets/img/icons/date.png" alt="" /> 10/02/2024</a>
-                    <a href="#" className="date outhor"><img src="/assets/img/icons/user.png" alt="" /> Ben Cutting</a>
+                    <a href="#" className="date"><img src="/assets/img/icons/date.webp" alt="" /> 10/02/2024</a>
+                    <a href="#" className="date outhor"><img src="/assets/img/icons/user.webp" alt="" /> Ben Cutting</a>
                   </div>
                   <h4><Link to="/blog/blog-details">The Importance of Cybersecurity</Link></h4>
                   <div className="space16"></div>
@@ -35,12 +35,12 @@ const Blog7 = () => {
             <div className="col-lg-6">
               <div className="blog2-box">
                 <div className="image">
-                  <img src="/assets/img/blog/blog2-img1.png" alt="" />
+                  <img src="/assets/img/blog/blog2-img1.webp" alt="" />
                 </div>
                 <div className="heading1">
                   <div className="tags">
-                    <a href="#" className="date"><img src="/assets/img/icons/date.png" alt="" /> 10/02/2024</a>
-                    <a href="#" className="date outhor"><img src="/assets/img/icons/user.png" alt="" /> Ben Cutting</a>
+                    <a href="#" className="date"><img src="/assets/img/icons/date.webp" alt="" /> 10/02/2024</a>
+                    <a href="#" className="date outhor"><img src="/assets/img/icons/user.webp" alt="" /> Ben Cutting</a>
                   </div>
                   <h4><Link to="/blog/blog-details">The Importance of Cybersecurity</Link></h4>
                   <div className="space16"></div>

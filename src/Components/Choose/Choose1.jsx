@@ -9,9 +9,9 @@ const Choose1 = () => {
         Content:'At TechXen, we understand that every business is unique, which is why we offer a range of flexible IT solutions designed to address your specific challenges and goals.',
         btnName:'Discover More',
         btnUrl:'/contact',
-        img1:'/assets/img/work/work-img1.png',
-        img2:'/assets/img/work/work-img3.png',
-        img3:'/assets/img/work/work-img2.png',
+        img1:'/assets/img/work/work-img1.webp',
+        img2:'/assets/img/work/work-img3.webp',
+        img3:'/assets/img/work/work-img2.webp',
       }
 
     return (
@@ -20,7 +20,7 @@ const Choose1 = () => {
             <div className="row align-items-center">
               <div className="col-lg-6">
                 <div className="heading1">
-                  <span className="span" data-aos="zoom-in-left" data-aos-duration="700"><img src="/assets/img/icons/span1.png" alt="" />{mainContent.subTitle}</span>
+                  <span className="span" data-aos="zoom-in-left" data-aos-duration="700"><img src="/assets/img/icons/span1.webp" alt="" />{mainContent.subTitle}</span>
                   <h2 className="title tg-element-title">{mainContent.title}</h2>
                   <div className="space16"></div>
                   <p data-aos="fade-right" data-aos-duration="700">{mainContent.Content}</p>
@@ -63,7 +63,7 @@ const Choose1 = () => {
                       </div>
                     </div>
                   </div>
-                  <img src="/assets/img/bg/work-bg.png" alt="" className="bg-image shape-animaiton4" />
+                  <img src="/assets/img/bg/work-bg.webp" alt="" className="bg-image shape-animaiton4" />
                 </div>
               </div>
             </div>

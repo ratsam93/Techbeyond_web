@@ -55,16 +55,16 @@ const HeroBanner4 = ({subtitle,title,content,btnone,btnoneurl,btntwo,btntwourl,s
                             <div className="logo-slider owl-carousel hero_gap_4">
                                 <Slider {...settings}>
                                 <div className="single-slider">
-                                    <img src="/assets/img/logo/slider-img1.png" alt="" />
+                                    <img src="/assets/img/logo/slider-img1.webp" alt="" />
                                 </div>
                                 <div className="single-slider">
-                                    <img src="/assets/img/logo/slider-img2.png" alt="" />
+                                    <img src="/assets/img/logo/slider-img2.webp" alt="" />
                                 </div>
                                 <div className="single-slider">
-                                    <img src="/assets/img/logo/slider-img3.png" alt="" />
+                                    <img src="/assets/img/logo/slider-img3.webp" alt="" />
                                 </div>
                                 <div className="single-slider">
-                                    <img src="/assets/img/logo/slider-img4.png" alt="" />
+                                    <img src="/assets/img/logo/slider-img4.webp" alt="" />
                                 </div>
                                 </Slider>
                             </div>
@@ -76,7 +76,7 @@ const HeroBanner4 = ({subtitle,title,content,btnone,btnoneurl,btntwo,btntwourl,s
 
                 <div className="col-lg-6">
                   <div className="main-image">
-                    <img src="/assets/img/hero/hero4-img.png" alt="" />
+                    <img src="/assets/img/hero/hero4-img.webp" alt="" />
                   </div>
                 </div>
             </div>

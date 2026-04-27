@@ -8,7 +8,7 @@ const Footer2 = () => {
                   <div className="col-lg-4 col-md-6 col-12">
                        <div className="single-footer-items footer-logo-area">
                             <div className="footer-logo">
-                              <a href=""><img src="/assets/img/logo/header-logo2.png" alt="" /></a>
+                              <a href=""><img src="/assets/img/logo/techbeyond-full-logo.webp" alt="" /></a>
                             </div>
                             <div className="space20"></div>
                             <div className="heading2">
@@ -57,7 +57,7 @@ const Footer2 = () => {
 
                             <div className="contact-box">
                               <div className="icon">
-                                <img src="/assets/img/icons/footer1-icon1.png" alt="" />
+                                <img src="/assets/img/icons/footer1-icon1.webp" alt="" />
                               </div>
                               <div className="pera">
                                 <a href="tel:0500222333">0500 222 333</a>
@@ -66,7 +66,7 @@ const Footer2 = () => {
 
                             <div className="contact-box">
                               <div className="icon">
-                                <img src="/assets/img/icons/footer1-icon2.png" alt="" />
+                                <img src="/assets/img/icons/footer1-icon2.webp" alt="" />
                               </div>
                               <div className="pera">
                                 <a href="tel:0356588547">03 5658 8547</a>
@@ -75,19 +75,19 @@ const Footer2 = () => {
 
                             <div className="contact-box">
                               <div className="icon">
-                                <img src="/assets/img/icons/footer1-icon3.png" alt="" />
+                                <img src="/assets/img/icons/footer1-icon3.webp" alt="" />
                               </div>
                               <div className="pera">
-                                    <a href="mailto:info@techbeyond.com">info@techbeyond.com</a>
+                                        <a href="mailto:info@techbeyondsolution.com">info@techbeyondsolution.com</a>
                               </div>
                             </div>
 
                             <div className="contact-box">
                               <div className="icon">
-                                <img src="/assets/img/icons/footer1-icon4.png" alt="" />
+                                <img src="/assets/img/icons/footer1-icon4.webp" alt="" />
                               </div>
                               <div className="pera">
-                                    <a href="mailto:info@techbeyond.com">info@techbeyond.com</a>
+                                        <a href="mailto:info@techbeyondsolution.com">info@techbeyondsolution.com</a>
                               </div>
                             </div>
 

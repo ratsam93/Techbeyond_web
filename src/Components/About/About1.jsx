@@ -23,7 +23,7 @@ const About1 = ({image1,image2,supIcon,supTitle,supCon,subTitle,Title,content,fe
 
               <div className="col-lg-6">
                 <div className="heading1">
-                  <span className="span" data-aos="zoom-in-left" data-aos-duration="700"><img src="/assets/img/icons/span1.png" alt="" /> {subTitle}</span>
+                  <span className="span" data-aos="zoom-in-left" data-aos-duration="700"><img src="/assets/img/icons/span1.webp" alt="" /> {subTitle}</span>
                   <h2 className="title tg-element-title">{Title}</h2>
                   <div className="space16"></div>
                   <p data-aos="fade-left" data-aos-duration="800">{content}</p>

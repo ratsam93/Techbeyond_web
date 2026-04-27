@@ -9,7 +9,7 @@ const Testimonial5 = () => {
                 <div key={i} className="col-lg-4 col-md-6">
                     <div className="single-slider">
                         <div className="icon">
-                          <img src="/assets/img/icons/about-page-qute.png" alt="" />
+                          <img src="/assets/img/icons/about-page-qute.webp" alt="" />
                         </div>
                         <p className="pera">{item.desc}</p>
       

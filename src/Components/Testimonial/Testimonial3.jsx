@@ -50,7 +50,7 @@ const Testimonial3 = () => {
       }, []);
 
     return (
-        <div className="testimonial4 testimonial-2 position-relative bg6 section-padding"  data-background="/assets/img/bg/testimonial4-bg.png">
+        <div className="testimonial4 testimonial-2 position-relative bg6 section-padding"  data-background="/assets/img/bg/testimonial4-bg.webp">
         <div className="container">
           <div className="row">
             <div className="col-md-7 m-auto text-center">

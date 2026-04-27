@@ -7,7 +7,7 @@ const Mission1 = () => {
             <div className="row align-items-center">
               <div className="col-lg-6">
                 <div className="heading1">
-                  <span className="span"><img src="/assets/img/icons/span1.png" alt="" /> Our Mission</span>
+                  <span className="span"><img src="/assets/img/icons/span1.webp" alt="" /> Our Mission</span>
                   <h2>Innovating for Success: Our Technology Mission</h2>
                   <div className="space16"></div>
                   <p>At TechXen, our mission is simple: to revolutionize the digital landscape by delivering top-notch technology solutions that drive growth, efficiency, and sustainability for our clients. We strive to be the trusted partner that businesses can rely on to navigate the complexities of the digital world.</p>
@@ -24,13 +24,13 @@ const Mission1 = () => {
               <div className="col-lg-6">
                 <div className="solution-images">
                   <div className="image1">
-                    <img src="/assets/img/others/solution-img1.png" alt="" />
+                    <img src="/assets/img/others/solution-img1.webp" alt="" />
                   </div>
                   <div className="image2">
-                    <img src="/assets/img/others/solution-img2.png" alt="" />
+                    <img src="/assets/img/others/solution-img2.webp" alt="" />
                   </div>
                   <div className="image3">
-                    <img src="/assets/img/others/solution-img3.png" alt="" />
+                    <img src="/assets/img/others/solution-img3.webp" alt="" />
                   </div>
                 </div>
               </div>

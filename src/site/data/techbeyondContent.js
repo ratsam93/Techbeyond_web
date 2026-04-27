@@ -1,13 +1,10 @@
-﻿import { siteBrand as legacyBrand } from "./content.js";
+import { siteBrand as legacyBrand } from "./content.js";
 import { portfolioProjects } from "./portfolio.js";
 
+const brandEmail = "info@techbeyondsolution.com";
 const svgDataUri = (svg) => `data:image/svg+xml;utf8,${encodeURIComponent(svg)}`;
 
-const wordmarkSvg = svgDataUri(`
-<svg xmlns="http://www.w3.org/2000/svg" width="720" height="110" viewBox="0 0 720 110" fill="none">
-  <text x="0" y="74" fill="#F5F1E8" font-family="Arial, Helvetica, sans-serif" font-size="72" font-weight="800" letter-spacing="1.2">Techbeyond</text>
-</svg>
-`);
+const brandWordmark = "/assets/img/logo/techbeyond-full-logo.webp";
 
 const labelLogo = (label) =>
   svgDataUri(`
@@ -18,21 +15,22 @@ const labelLogo = (label) =>
 `);
 
 const serviceImages = [
-  "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=900&q=80",
-  "https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=900&q=80",
-  "https://images.unsplash.com/photo-1526498460520-4c246339dccb?auto=format&fit=crop&w=900&q=80",
-  "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=900&q=80",
+  "/assets/img/service/service-hero-image.webp",
+  "/assets/img/service/service7-img1.webp",
+  "/assets/img/service/service7-img2.webp",
+  "/assets/img/service/service7-img3.webp",
 ];
 
 export const siteBrand = {
-  name: "Techbeyond",
+  name: "Techbeyond Solution",
   url: legacyBrand.url,
-  email: "info@techbeyond.com",
-  phone: "Strategy calls by appointment",
+  email: brandEmail,
+  phone: "+91 88772 14277",
+  phoneHref: "https://api.whatsapp.com/send/?phone=918877214277&text=Hello",
   tagline: "Build. Market. Scale.",
   description:
-    "Techbeyond helps businesses generate pipeline and improve execution through LinkedIn-led growth, SEO, websites, paid media, automation, and creative systems.",
-  wordmark: wordmarkSvg,
+    "Techbeyond Solution helps businesses generate pipeline and improve execution through LinkedIn-led growth, SEO, websites, paid media, automation, and creative systems.",
+  wordmark: brandWordmark,
   social: legacyBrand.social,
 };
 
@@ -261,8 +259,8 @@ export const pricingPlans = [
 
 export const faqs = [
   {
-    q: "What does Techbeyond actually help with?",
-    a: "Techbeyond combines LinkedIn, SEO, websites, paid media, automation, and creative execution so your demand generation and conversion systems work together.",
+    q: "What does Techbeyond Solution actually help with?",
+    a: "Techbeyond Solution combines LinkedIn, SEO, websites, paid media, automation, and creative execution so your demand generation and conversion systems work together.",
   },
   {
     q: "Do you only work on marketing?",
@@ -289,10 +287,10 @@ export const faqs = [
 export const projects = portfolioProjects;
 
 export const aboutOverview = {
-  eyebrow: "ABOUT TECHBEYOND",
+  eyebrow: "ABOUT TECHBEYOND SOLUTION",
   title: "A growth partner built around systems, not isolated services.",
   description:
-    "Techbeyond brings strategy, creative, websites, acquisition, and automation together so businesses do not have to manage separate agencies for every part of growth.",
+    "Techbeyond Solution brings strategy, creative, websites, acquisition, and automation together so businesses do not have to manage separate agencies for every part of growth.",
   approachTitle: "One coordinated layer across traffic, conversion, and operations.",
   approachBody:
     "The work is designed around how pipeline actually moves: positioning, landing experience, demand capture, follow-up, reporting, and iteration. That is why the system holds after launch.",
@@ -306,7 +304,7 @@ export const aboutOverview = {
     "Across B2B, real estate, finance, and product-led businesses, the same pattern repeats: clearer message, faster follow-up, better reporting, and stronger conversion from the traffic already being generated.",
   quote:
     "We do not sell isolated tactics. We build growth systems that connect demand, messaging, conversion, and follow-through.",
-  quoteName: "Techbeyond",
+  quoteName: "Techbeyond Solution",
   quoteRole: "Integrated growth partner",
   resultStats: [
     { value: "4x", label: "pipeline movement on strong engagements" },
@@ -336,32 +334,32 @@ export const teamMembers = [
   {
     name: "LinkedIn & Authority",
     role: "Positioning, content systems, outreach, and appointment flow",
-    image: "https://framerusercontent.com/images/710xRJNP996FyOiuIcfKU5Anj7w.jpg?width=1175&height=1575",
+    image: "/team/indian-corporate-1.webp",
   },
   {
     name: "SEO & Demand Capture",
     role: "Technical SEO, GEO, answer-engine content, and traffic intent",
-    image: "https://framerusercontent.com/images/GH4QoaMu8RYFLKuhxm439mvWGfY.jpg?width=1175&height=1575",
+    image: "/team/indian-corporate-2.webp",
   },
   {
     name: "Web & Funnel Engineering",
     role: "Sites, landing pages, conversion flow, and performance tuning",
-    image: "https://framerusercontent.com/images/OeWv0S5bAgzQXdwDiie7eyERKQ.jpg?width=1175&height=1575",
+    image: "/team/indian-corporate-3.webp",
   },
   {
     name: "Paid Media & Creative",
     role: "Campaign structure, creative direction, and optimization loops",
-    image: "https://framerusercontent.com/images/rwQph0NRRXqMHD01nhruS1M2U.jpg?width=1175&height=1575",
+    image: "/team/indian-corporate-4.webp",
   },
   {
     name: "CRM & Automation",
     role: "Lead routing, nurture sequences, WhatsApp, and reporting systems",
-    image: "https://framerusercontent.com/images/fJCyipaZmFOAcrvMpcNWnkeQpuQ.jpg?width=1175&height=1575",
+    image: "/team/indian-corporate-5.webp",
   },
   {
     name: "Delivery & Optimization",
     role: "QA, reporting, iteration, and keeping the machine moving",
-    image: "https://framerusercontent.com/images/XUP3QOJcdR6Vc2sW39xIhOKlko.jpg?width=1175&height=1575",
+    image: "/team/indian-corporate-6.webp",
   },
 ];
 
@@ -377,7 +375,7 @@ export { blogPosts } from "./blogPosts.js";
 export const legalPages = {
   privacy: {
     title: "Privacy Policy",
-    description: "How Techbeyond collects, uses, and safeguards information submitted through the website.",
+    description: "How Techbeyond Solution collects, uses, and safeguards information submitted through the website.",
     sections: [
       {
         heading: "Information we collect",
@@ -411,7 +409,7 @@ export const legalPages = {
   },
   terms: {
     title: "Terms",
-    description: "Terms governing the use of the Techbeyond website and initial project inquiries.",
+    description: "Terms governing the use of the Techbeyond Solution website and initial project inquiries.",
     sections: [
       {
         heading: "Use of the website",
@@ -438,7 +436,7 @@ export const legalPages = {
         heading: "Limitation of liability",
         paragraphs: [
           "The website and its content are provided on an as-is basis without guarantees of uninterrupted access or error-free performance.",
-          "To the fullest extent permitted by law, Techbeyond is not liable for indirect or consequential losses arising from the use of the site.",
+          "To the fullest extent permitted by law, Techbeyond Solution is not liable for indirect or consequential losses arising from the use of the site.",
         ],
       },
     ],

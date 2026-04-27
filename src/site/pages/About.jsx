@@ -25,7 +25,7 @@ const About = () => (
           <AnimatedSection>
             <article className="sj-showcase-card">
               <img
-                src="https://framerusercontent.com/images/KmimP8fJf3KTg25QrfWgNhSOI.jpeg?width=2752&height=1536"
+                src="/assets/img/others/project-hero-img.webp"
                 alt="Automation systems"
                 className="sj-showcase-image"
               />
@@ -111,7 +111,7 @@ const About = () => (
       <div className="sj-shell">
         <AnimatedSection>
           <p className="sj-kicker">CORE DISCIPLINES</p>
-          <h2 className="sj-section-title">How Techbeyond is structured behind the work</h2>
+          <h2 className="sj-section-title">How Techbeyond Solution is structured behind the work</h2>
           <p className="sj-copy sj-section-copy">
             Each discipline exists to keep strategy, production, optimization, and follow-up connected instead of split across disconnected vendors.
           </p>

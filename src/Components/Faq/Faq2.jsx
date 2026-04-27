@@ -61,7 +61,7 @@ const Faq2 = () => {
               </div>
               <div className="col-lg-6">
                 <div className="faq-image image-anime" data-aos="zoom-out" data-aos-duration="800">
-                  <img src="/assets/img/others/faq6-img.png" alt="" />
+                  <img src="/assets/img/others/faq6-img.webp" alt="" />
                 </div>
               </div>
             </div>
