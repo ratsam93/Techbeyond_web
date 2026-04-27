@@ -29,11 +29,7 @@ const Home = () => {
   const [showStrategyCalendar, setShowStrategyCalendar] = useState(false);
   const strategyCalendarRef = useRef(null);
   const { homepagePlans, bookingSettings } = usePricingCatalog();
-<<<<<<< HEAD
   const signatureLines = ["TECHBEYOND", "SOLUTION"];
-=======
-  const signatureLines = ["TECHBEYOND", "SOLUTIONS"];
->>>>>>> 94c8f7223cd50d50acd1cef9dd998d9c614ea3db
   const plans = useMemo(
     () =>
       homepagePlans

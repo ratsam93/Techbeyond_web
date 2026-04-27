@@ -1276,15 +1276,9 @@ img {
   border: 1px solid rgba(255, 255, 255, 0.09);
   border-radius: 2.2rem;
   background:
-<<<<<<< HEAD
     radial-gradient(circle at 84% 50%, rgba(91, 157, 255, 0.2), transparent 20%),
     radial-gradient(circle at 92% 52%, rgba(91, 202, 255, 0.14), transparent 28%),
     linear-gradient(180deg, rgba(12, 31, 57, 0.94), rgba(5, 13, 26, 0.98));
-=======
-    radial-gradient(circle at 84% 50%, rgba(134, 200, 223, 0.18), transparent 20%),
-    radial-gradient(circle at 92% 52%, rgba(73, 164, 112, 0.14), transparent 28%),
-    linear-gradient(180deg, rgba(24, 29, 27, 0.92), rgba(8, 10, 9, 0.98));
->>>>>>> 94c8f7223cd50d50acd1cef9dd998d9c614ea3db
   box-shadow:
     0 40px 120px rgba(0, 0, 0, 0.42),
     0 0 0 1px rgba(255, 255, 255, 0.02) inset,
@@ -1295,17 +1289,10 @@ img {
 
 .sj-home-signature:hover {
   transform: translateY(-4px);
-<<<<<<< HEAD
   border-color: rgba(122, 185, 255, 0.24);
   box-shadow:
     0 48px 130px rgba(0, 0, 0, 0.48),
     0 0 38px rgba(83, 156, 255, 0.16),
-=======
-  border-color: rgba(140, 255, 194, 0.18);
-  box-shadow:
-    0 48px 130px rgba(0, 0, 0, 0.48),
-    0 0 38px rgba(83, 227, 143, 0.12),
->>>>>>> 94c8f7223cd50d50acd1cef9dd998d9c614ea3db
     0 0 0 1px rgba(255, 255, 255, 0.03) inset;
 }
 
@@ -1319,11 +1306,7 @@ img {
 
 .sj-home-signature::before {
   border-radius: inherit;
-<<<<<<< HEAD
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.08), transparent 14%, transparent 74%, rgba(123, 188, 255, 0.06));
-=======
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0.08), transparent 14%, transparent 74%, rgba(123, 255, 182, 0.04));
->>>>>>> 94c8f7223cd50d50acd1cef9dd998d9c614ea3db
   opacity: 0.8;
 }
 
@@ -1363,11 +1346,7 @@ img {
   font-size: clamp(3.2rem, 10.1vw, 8.15rem);
   font-weight: 800;
   line-height: 0.84;
-<<<<<<< HEAD
   letter-spacing: -0.035em;
-=======
-  letter-spacing: -0.09em;
->>>>>>> 94c8f7223cd50d50acd1cef9dd998d9c614ea3db
   color: transparent;
   background: linear-gradient(180deg, rgba(241, 247, 244, 0.24), rgba(214, 226, 220, 0.05) 72%);
   -webkit-background-clip: text;
@@ -1851,7 +1830,6 @@ img {
     flex-direction: column;
   }
 
-<<<<<<< HEAD
   .sj-inline-calendar {
     margin-top: 1rem;
     padding: 1rem;
@@ -1929,11 +1907,6 @@ img {
     min-height: auto;
     padding: 1.85rem 1.15rem 1.15rem;
     border-radius: 1.7rem;
-=======
-  .sj-home-signature {
-    min-height: auto;
-    padding: 2.25rem 1.35rem 1.4rem;
->>>>>>> 94c8f7223cd50d50acd1cef9dd998d9c614ea3db
   }
 
   .sj-whatsapp-float {
